@@ -2,13 +2,7 @@
 title: "LIFE4138: Coursework instructions"
 subtitle: "2025 - 2026"
 author: "Hannah Jackson"
-format: 
-  pdf:
-    number-sections: true
-    mainfont: "Helvetica"
-editor: 
-  markdown: 
-    wrap: 72
+format: html
 ---
 
 ## The brief:
