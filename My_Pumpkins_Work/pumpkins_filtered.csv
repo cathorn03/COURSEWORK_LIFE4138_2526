@@ -1,0 +1,648 @@
+id,place,weight_lbs,grower_name,city,state_prov,country,gpc_site,seed_mother,pollinator_father,ott,est_weight,pct_chart,variety,dataset_id,weight_kg,weight_class
+2021-P,62,1731.7296480824505,"Muro, Teodoro",SAN FELIU DE CODINES,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2183.7 Mendi 2019,2183.7 Mendi 2019,443.3249993572707,1753.581715184577,,Dill's Atlantic,8,785.5125683701996,heavy
+2014-P,508,969.5887054066023,"MIRAL, ANGEL",Lalueza,Other,Spain,Concurso Calabazas Gigantes de Valtierra,Carlos Callen 347 kg,Wallace 2009 lb,372.07016799365624,1080.7463076339045,0.0,Blue Hubbard,8,439.8054367724348,medium
+2015-P,1136,577.6764202853612,"AYLLON, ANGEL",TUDELA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,318.12582290934415,710.899459117602,0.0,Cinderella,8,262.03402424143985,medium
+2017-P,1505,119.84950849969648,"Monfort, Jorge",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Early Giant,8,54.36373705546232,light
+2015-P,1742,87.20601468629829,"casanoves, albert",Autol,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Blue Hubbard,8,39.55664826170491,light
+2015-P,1614,215.63667398642784,"MOGAS, SALVADOR",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,204.49098591327805,177.2325541736695,16.29477656482541,Rouge Vif d’Etampes,8,97.81279532024367,light
+2016-P,1480,196.93498988645865,"TEAM, POTI-SALVA",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,229.3233105140363,335.50841778886104,0.0,Howden,8,89.32971141249764,light
+2017-P,EXH,854.6064515825487,"Almagro, Diego",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1937 Urena 2016,,330.77424732047155,810.49931015956,3.1710567215701286,Dill's Atlantic,8,387.64948643784413,medium
+2016-P,1572,105.9690704200834,"samanes, LEIRE",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,166.4169841560312,120.93321170184862,0.0,Champion,8,48.06757034254983,light
+2021-P,385,1145.9648162229955,"MOGAS, SALVADOR",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,358.06440908371155,1310.4072063420588,0.0,Jack O'Lantern,8,519.8096406387508,medium
+2014-P,833,701.6136437554318,"Mendi, Jose Miguel",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,Mendi 330 kg,Urena 1401 lb,285.60655010968287,673.0357717665438,1.8962097252778356,Prizewinner,8,318.25194880746386,medium
+2019-P,145,1557.6714514692203,"Mendi, Ruben",VALTIERRA,Navarre,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2255 Zackosky 2018,2255 Zackosky 2018,393.6367947090801,1431.671333169013,8.921145291429236,Champion,8,706.5597703864383,heavy
+2019-P,1185,376.86338848458087,"PEREZ OSTA, FRANCISCO JAVIER",san feliu de codinas,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),,,0.0,0.0,0.0,Spirit,8,170.94523301660587,medium
+2019-P,EXH,1138.235668208227,"segales, miguel",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),1911 URENA 2017,2145 MCMULLEN 2015,380.1053532952284,1159.8778759019283,0.0,Cinderella,8,516.3036990992517,medium
+2018-P,31,2109.5992454706443,"BAROJA, JESUS",VALTIERRA,Navarre,Spain,Europameisterschaft im Kurbiswiegen,2031 Mendi 17,self,472.668761883507,1636.8011997477238,8.846962457074659,Wolf,8,956.9142177454843,heavy
+2014-P,590,956.7017819174793,"BARREIRO, FINS",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,Monfort 488kg,DeBacco 17766.5lb,341.53199394771457,870.9191774276032,4.101936244783984,Connecticut Field,8,433.9599282777686,medium
+2015-P,1136,615.0114928812797,"CALLEN, CARLOS",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,308.87462665250683,758.9159141336662,0.0,Casper,8,278.9692131709485,medium
+2015-P,1696,123.17227473182255,"samanes, LEIRE",Alcaniz,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Prizewinner,8,55.87094381835471,light
+2015-P,1725,99.59287422772896,"Mogas, Salvador",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Spirit,8,45.17532774969786,light
+2014-P,1564,182.49808007275175,"GARBAIZ, ENEKO",Gaztelu,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,212.2660337958931,180.94688383561717,0.0,Spirit,8,82.78112912100019,light
+2014-P,EXH,75.32639056787716,"POTI & SALVA, TEAM",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,151.92215786228556,86.96754446746552,0.0,Autumn Gold,8,34.16805076158908,light
+2016-P,1480,208.13567601045793,"Mena, Manuel",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,240.80054983463768,325.547889432576,0.0,Wolf,8,94.41034263834372,light
+2015-P,1497,300.46673539374973,"Mendi, Jose Miguel",Canta Lobos,Other,Spain,Concurso Calabazas Gigantes de Valtierra,330Kg Ruben Mendi,,229.5903202078001,315.1558939593458,0.0,Wolf,8,136.29171117460487,medium
+2014-P,508,1094.9247254948464,"Callen, Carlos",ALCORA,Other,Spain,Concurso Calabazas Gigantes de Valtierra,Carlos Callen 347 kg,Wallace 2009 lb,399.7709620862232,1155.4842267619051,0.0,Rouge Vif d’Etampes,8,496.65785548446235,medium
+2014-P,1145,514.5210065610687,"balcelts, SERGI",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,304.4626055156993,,0.9948060491027734,Autumn Gold,8,233.38672857610078,medium
+2019-P,1420,230.11729271879952,"Mogas, Salvador",santa maria palautordera,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),,,0.0,0.0,0.0,Cinderella,8,104.38120397724747,light
+2016-P,1572,123.41007415397952,"BAROJA, JESUS",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,,135.71241789615047,0.0,Prizewinner,8,55.97880963624511,light
+2019-P,1064,483.15788268845887,"XAVI, ARMADAS",SAN FELIU DE CODINES,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,,,272.1729911817437,519.0169044185154,,Big Max,8,219.16041558748495,medium
+2018-P,DMG,1417.4044119850412,"Joan Xavier, Joan Xavier",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2145.5 McMullen 2015,2145.5 McMullen 2015,394.98872750519695,1417.1293897413734,0.0,Casper,8,642.9346412764147,heavy
+2015-P,1662,148.91218873193773,"PRADILLA, GONZALO",,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Early Giant,8,67.54656880880695,light
+2018-P,DMG,1430.935368962306,"segales, miguel",SAN FELIU DE CODINAS,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2145.5 McMullen 2015,2145.5 McMullen 2015,403.65658246081927,1428.025035396411,0.0,Cinderella,8,649.072283361302,heavy
+2016-P,1458,230.36719601216168,"Vergara, Jose Javier",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,,,222.24785728814956,258.9429455089942,0.0,Atlantic Giant,8,104.49456011111654,light
+2014-P,DMG,579.2878183678808,"MIRAL, ANGEL",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,Mendi 331 kg,Mendi 331 kg,298.791250656549,600.2256165428163,0.0,Dill's Atlantic,8,262.7649544116708,medium
+2014-P,EXH,133.49070377736746,"Ruben, Mendi",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,172.89182816631788,,8.78823171378866,Atlantic Giant,8,60.55138323341388,light
+2019-P,102,1612.184118606502,"ALVERO, JUDITH",,Catalonia,Spain,O Maior da Minha Aldei - Concurso Portugues de Horticolas Gigantes,2528 GEDDES 2018,2469 DALETAS 2018,400.1428036947584,1506.547359503555,6.188799525386774,Wolf,8,731.2867161999093,heavy
+2015-P,1614,186.73861558313567,"Mendi, Jose Miguel",Tolosa,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,185.5082899755146,165.53225217906314,15.593799677654772,Big Moose,8,84.70463602851034,light
+2019-P,205,1558.45899824808,"JIMENEZ, SUSANA",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2469 Daletas 2018,2528 Geddes 2018,407.1110532358427,1426.5440270232125,0.0,Cinderella,8,706.9170016053291,heavy
+2014-P,689,871.494313167414,MENDI,Corbera d'Ebre,Other,Spain,Concurso Calabazas Gigantes de Valtierra,Salva 389.4 kg,Wallace 2009 lb,332.44367820627485,822.6270814614273,9.94563663188518,Howden,8,395.309820452739,medium
+2014-P,590,1022.6461813476548,"Mendi, Ruben",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,Monfort 488kg,DeBacco 17766.5lb,361.96748068717113,922.1692317987436,4.019019207323423,Rouge Vif d’Etampes,8,463.8723078592962,medium
+2020-P,2,2830.2153103616683,"BAROJA, JESUS",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2183.7 Mendi 2019,self,491.8437312560385,2330.394634010633,13.267034709812217,Prizewinner,8,1283.7856647800527,heavy
+2016-P,1576,120.6565597279345,"GARNICA, GUILLERMO",,Basque Country,Spain,Concurso Calabazas Gigantes de Valtierra,,,183.5244594931622,135.7854183939077,0.0,Spirit,8,54.729815492591094,light
+2020-P,EXH,2004.8698485589089,"ALVERO, JUDITH",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1911 Urena 2017,1911 Urena 2017,470.6840830171837,1821.338085031268,3.9432716393171887,Champion,8,909.4089633063211,heavy
+2017-P,DMG,1230.8344695025337,"Mendi, Jose Miguel",GANDIA,Valencian Community,Spain,Concurso Calabazas Gigantes de Valtierra,2020.5 Werner 2015,2020.5 Werner 2015,375.35101954238064,1238.2792295541024,0.97476086476277,Wolf,8,558.3065153663492,medium
+2016-P,1340,327.78494187520965,"JUAN CARLOS Y BAUTISTA, LOPEZ MENA",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,421 MENDI,421 MENDI,243.6246989715947,321.60930459165735,0.0,Big Moose,8,148.68324963459511,medium
+2017-P,EXH,417.4652681582917,"GARNICA, GUILLERMO",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,1937 Urena 2016,2261.5 Wallace 2016,,0.0,0.0,Early Giant,8,189.3622456366011,medium
+2019-P,872,624.5044918264878,"MARTINEZ, ANGELA",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2031 mendi 2017,2031 mendi 2017,298.0459285094755,612.9114780612189,1.0249199268922429,Howden,8,283.27523749249485,medium
+2015-P,1155,559.1519491978668,"Mendi, Jose Miguel",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,2058 Hawkley,2058 Hawkley,325.0856175304228,866.5140066966674,0.0,Early Giant,8,253.63132415615237,medium
+2020-P,798,698.3695658922326,"Lopez, Manuel",CORBERA DE EBRO,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,miguel Sagalles,,313.3860298830426,710.2169544960568,0.0,Rouge Vif d’Etampes,8,316.7804350887167,medium
+2017-P,969,563.8217238000336,"GONZALEZ, POTI",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Big Moose,8,255.74953391569525,medium
+2020-P,661,841.2064032624424,"LOZANO, AITOR",,Navarre,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2252.3 Paton 2016,self,341.7309833241593,942.8799031072796,0.0,Big Max,8,381.5712245198439,medium
+2017-P,606,923.1329839637672,"Gascon, Raul",Lalueza,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,1327.2 MENDI 2016,318.9859237037523,796.936432825979,14.378168592086528,Wolf,8,418.7331215259648,medium
+2017-P,884,677.7720753407692,"Lozano, Aitor",LA LUEZA,Aragon,Spain,Concurso Calabazas Gigantes de Valtierra,939.6 Karkos 2015,1734.5 Clementz 2015,0.0,0.0,0.0,Cinderella,8,307.43741337457294,medium
+2015-P,1680,143.13448174824217,"Ruben,Mendi",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Blue Hubbard,8,64.92580092100265,light
+2016-P,537,1082.4633768040555,"TEAM, POTI-SALVA",san feliu de codinas,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,1969 DALETAS,1676.5 DALETAS,376.4231922789204,1174.4108451155153,0.0,Big Max,8,491.0053877183196,medium
+2014-P,1005,647.5875644809317,"XAVI, ARMADAS",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,324.11978653756086,658.7787541184351,0.0,Big Max,8,293.74571924855064,medium
+2016-P,1401,269.9943611651101,"Gonzalez, Josep M.",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,,,242.7674035652198,331.8750891309962,0.0,Spirit,8,122.46944222449393,light
+2016-P,1490,189.5753314558803,"Mendi, Ruben",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,,,199.5342060687165,180.70166930485215,5.020674172112819,Early Giant,8,85.9913703483873,light
+2015-P,1737,96.54406398058256,"ALBA, MARIA",Canta Lobos,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Howden,8,43.79238742159225,light
+2014-P,EXH,468.3904440303085,"MOGAS, SALVADOR",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,Mendi 331 kg,Urena 1401 lb,263.4915146798515,398.3335609901404,19.973240741597497,Autumn Gold,8,212.46190541214796,medium
+2019-P,1420,239.92601524530613,"Lopez, Manuel",SAN FELIU DE CODINAS,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),,,0.0,0.0,0.0,Casper,8,108.83044051527087,light
+2020-P,342,1236.1554479833972,"fernandez, cristino",SAN FELIU DE CODINAS,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2517 Haist 2019,2517 Haist 2019,359.2504136459424,1161.0754116647745,10.375932300366086,Cinderella,8,560.720111205269,medium
+2017-P,EXH,399.6456367831868,"ADRIAN, LOPEZ",Lalueza,Other,Spain,Concurso Calabazas Gigantes de Valtierra,1937 Urena 2016,2261.5 Wallace 2016,0.0,0.0,0.0,Prizewinner,8,181.27926084485352,medium
+2014-P,1005,628.2943581484791,"MOGAS, SALVADOR",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,315.81157904693265,676.8251845153017,0.0,Autumn Gold,8,284.9943208561501,medium
+2019-P,DMG,1560.313522423759,"SAGA, MIQUELS",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1875 MENDI 2017,2528 GEDDES 2018,409.84862392472934,1443.438844701152,4.052925774932783,Atlantic Giant,8,707.7582137714171,heavy
+2020-P,798,685.187539458678,"Perez, Hermanos Perez",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,miguel Sagalles,1819 Mendi 2019,327.3329023041331,702.5653964163204,0.0,Connecticut Field,8,310.8010678984563,medium
+2021-P,159,1410.770526696136,"Ruben,Mendi",san feliu de codinas,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),"2183,7 Mendi 2019","2183,7 Mendi 2019",395.5803323995649,1380.1052223368326,0.0,Howden,8,639.9255109093673,heavy
+2016-P,1340,336.04008359479764,"Gomez, Miguel",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,421 MENDI,421 MENDI,236.30923805442015,353.0665212164464,,Champion,8,152.4277819186002,medium
+2017-P,EXH,847.4371140070535,"Bayo, Manuel",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1937 Urena 2016,2145.5 McMullen 2015,333.37889727742487,789.5788898632723,3.030679528557159,Connecticut Field,8,384.39747491359947,medium
+2021-P,1012,399.08967017593426,"Mendi, Ruben",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,260.31709088931757,379.2639555215046,2.881232478311149,Atlantic Giant,8,181.02707439180378,medium
+2017-P,EXH,733.7311721520897,"Vergara, Javier",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2261.5 Wallace 2016,1625.5 Gantner 2013,305.8257497425626,670.2008590297762,,Connecticut Field,8,332.8204596881879,medium
+2016-P,273,1444.407555503493,"Mendi, Jose Miguel",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1921 WESTON 2015,2185 BRANDT 2015,391.2903328472276,1415.10483423346,0.0,Rouge Vif d’Etampes,8,655.1832671763844,heavy
+2018-P,1144,518.6697291341754,"JUAN CARLOS Y BAUTISTA, LOPEZ MENA",santa maria palautordera,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,1162.3 MENDI 2016,1162.3 MENDI 2016,278.841015298018,502.1353770711811,0.9748838945461332,Big Max,8,235.26858913526198,medium
+2014-P,1541,201.77398230439337,"Mendi, Ruben",Canta Lobos,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,216.36304168070464,206.24212219933855,0.0,Connecticut Field,8,91.52467837327283,light
+2021-P,1097,310.7422503123145,"Bergara, Javier",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,245.1548548897504,340.93759385923585,0.0,Champion,8,140.95268474166588,medium
+2014-P,1543,207.8822485374218,"Gascon, Raul",Alfaro,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,206.84732621076503,225.02788969434545,0.0,Wolf,8,94.29538793657453,light
+2019-P,126,1441.932802313091,"MOGAS, SALVADOR",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2145 MCMULLEN 2015,2528 GEDDES 2018,439.6692035838762,1420.1733390205748,0.0,Blue Hubbard,8,654.0607191292181,heavy
+2016-P,1127,518.3720362056395,"POTI-SALVA, TEAM",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,MONFORT 467,,283.6327104064285,480.2929559110757,10.32040448967495,Early Giant,8,235.13355562287805,medium
+2014-P,1620,137.98087841271584,"Callen, Carlos",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,177.02320586936952,133.63918263634503,3.9443595170665096,Prizewinner,8,62.588126448007905,light
+2017-P,884,604.7678795004314,"Mendi, Ruben",LA LUEZA,Aragon,Spain,Concurso Calabazas Gigantes de Valtierra,939.6 Karkos 2015,1734.5 Clementz 2015,0.0,0.0,0.0,Prizewinner,8,274.32271014139565,medium
+2016-P,787,800.9300688404246,"Zubelzu, Jose Manuel",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2109 ZYWIEC 2015,1916 BARRON 2014,313.6631189439651,826.3900122971136,0.0,Champion,8,363.3018792260166,medium
+2019-P,7,2224.8649925678274,"GABIN, CESAR",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1911 urena 2017,2469 daletas 2018,478.17993877328087,2142.9426425081815,0.9934698969078182,Autumn Gold,8,1009.1987606287665,heavy
+2017-P,1129,479.05201047478914,"Gascon, Angel",FITERO,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Prizewinner,8,217.29799195136437,medium
+2016-P,1486,209.1372743647486,"Lopez, Irene",TUDELA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,216.9835170513442,219.31671290567468,0.0,Autumn Gold,8,94.86466765184997,light
+2020-P,386,1100.9885020724394,"Vergara, Javier",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2005 hasit 2018,2005 hasit 2018,372.0883773411939,1144.2651716403743,0.0,Dill's Atlantic,8,499.4083845400585,medium
+2017-P,1094,525.4564807051638,"Monfort, Jorge",calaf,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Connecticut Field,8,238.3470596478623,medium
+2016-P,1486,218.1931625626678,"GARBAIZ, ENEKO",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,218.38734637660053,229.79005323631165,0.0,Autumn Gold,8,98.97241853842611,light
+2017-P,751,785.972901104486,"MARTINEZ, ANGELA",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1392.4 CALLEN 2016,1327.2 MENDI 2016,324.5483041964769,761.3726337386752,7.092809126350889,Wolf,8,356.51730794099484,medium
+2021-P,1097,331.6463864280119,"SANZ, ANGEL",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,266.3764048814804,352.37452213852885,0.0,Big Moose,8,150.4348008837462,medium
+2017-P,1505,142.3128984540411,"Mendi, Ruben",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Spirit,8,64.55313073875304,light
+2016-P,774,845.5636726273764,"Mendi, Ruben",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,1916 BARRON,2323 MEIER,324.80703618941453,800.0553727269312,0.0,Autumn Gold,8,383.5476819037779,medium
+2014-P,590,927.9772561918368,"ALBA, MARIA",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,Monfort 488kg,DeBacco 17766.5lb,335.4019627178802,,4.093336883679616,Rouge Vif d’Etampes,8,420.93048340861714,medium
+2019-P,205,1386.6371637780535,"CLAVELL, JUAN JOSE",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2469 Daletas 2018,2528 Geddes 2018,404.2912032192512,1335.9133289108097,0.0,Dill's Atlantic,8,628.978617489725,heavy
+2021-P,95,1816.892355923209,"Jose MIguel, MENDI",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2183.7 Mendi 2019,2183.7 Mendi 2019,439.84077145155976,1852.4802582882692,0.0,Atlantic Giant,8,824.1423726467676,heavy
+2014-P,1145,514.8350663888044,"GARBAIZ, ENEKO",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,275.4472896915212,470.71984005095186,0.99238311124673,Atlantic Giant,8,233.52918611396169,medium
+2014-P,1543,224.76409638216128,"MOGAS, SALVADOR",ALCORA,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,219.21233485069328,241.3814496422833,0.0,Spirit,8,101.95299411894835,light
+2021-P,445,1045.5170207791186,"CERVERA, ANTONIO",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),1758 Frias 2019,1911 Urena 2017,394.75452011472896,1257.0361374736435,0.0,Wolf,8,474.2465206254082,medium
+2017-P,1129,456.1105331511216,"Perez, Hermanos Perez",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Big Max,8,206.89173783734876,medium
+2017-P,1226,385.02514943742995,"Monfort, Jorge",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Wolf,8,174.64740778481823,medium
+2019-P,DMG,1589.6620885831371,"Baro, Jesus M.",calaf,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1875 MENDI 2017,2528 GEDDES 2018,419.7368080529334,1543.8798972597567,4.0430235920275335,Champion,8,721.070723381311,heavy
+2015-P,1470,342.0471690885947,"Mendi, Jose Miguel",ALCORA,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,239.11933182062955,295.23108549685435,7.901432701408835,Rouge Vif d’Etampes,8,155.15259589858658,medium
+2019-P,1269,334.47289224558773,"Mendi, Jose Miguel",OPINO,Galicia,Spain,Concurso Calabazas Gigantes de Valtierra,,,251.8890033282339,366.083254399275,0.0,Casper,8,151.7169039225986,medium
+2017-P,576,990.5583256615614,"BAUTISTA Y JUAN CARLOS, LOPEZ MENA",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1585.5 Werner 2014,,0.0,0.0,,Big Max,8,449.31725652008424,medium
+2018-P,1072,597.4285459917847,"Txbrerria, Andres",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2031.6 Mendi 2017,2031.6 Mendi 2017,285.46568675321663,562.2527886601756,4.026367614366147,Spirit,8,270.99358846187357,medium
+2017-P,1361,280.24061941011007,"XAVI, ARMADAS",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Wolf,8,127.11714496442593,light
+2017-P,576,952.9519828695322,"Gascon, Raul",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1585.5 Werner 2014,1625.5 Gantner 2013,0.0,0.0,0.0,Blue Hubbard,8,432.2590194296198,medium
+2021-P,1004,375.9102398752554,"ADRIAN, LOPEZ",ALCORA,Valencian Community,Spain,Concurso Calabazas Gigantes de Valtierra,,,262.5757592166904,358.31566440543793,3.8710485136589785,Atlantic Giant,8,170.51288480741584,medium
+2016-P,1251,388.55810318974983,"GABIN, CESAR",FITERO,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,258.85971821496213,349.94303319031667,6.866793397681057,Early Giant,8,176.24995560687051,medium
+2015-P,1591,215.05157348416745,"PEREZ OSTA, FRANCISCO JAVIER",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,330Kg Salvador Mogas,,212.97860392349804,238.5265626185258,0.0,Casper,8,97.54739373241836,light
+2015-P,988,626.8401430506133,"Gascon, Angel",Lalueza,Other,Spain,Concurso Calabazas Gigantes de Valtierra,520Kg Carlos Callen,,313.5703493258447,,0.0,Autumn Gold,8,284.3346888877582,medium
+2017-P,1094,510.0727119401131,"Garcia, Alberto",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Cinderella,8,231.3689821360353,medium
+2015-P,1092,575.5361907071285,"HERNANDEZ, DAVID",Corbera d'Ebre,Other,Spain,Concurso Calabazas Gigantes de Valtierra,270Kg Salva,2323 Meier,276.1879904970514,506.3532504073208,10.351282911516815,Rouge Vif d’Etampes,8,261.0632161047535,medium
+2016-P,1251,425.08075424987385,"Lopez, Manuel",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,264.98751362694617,388.5582115139002,7.050539145084505,Cinderella,8,192.81663012774277,medium
+2016-P,1572,130.07511587487758,"BAROJA, JESUS",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,175.1598212645316,135.79540094642977,0.0,Autumn Gold,8,59.002072560844475,light
+2016-P,234,1419.4758114047418,"ALDEA, CARLOS",LA LUEZA,Aragon,Spain,Concurso Calabazas Gigantes de Valtierra,520 CALLEN,1493 URENA,405.6083601948208,,1.0272449709219829,Champion,8,643.8742280531909,heavy
+2016-P,1631,70.69954590169682,"POTI & SALVA, TEAM",TUDELA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Big Max,8,32.06931402100968,light
+2019-P,1538,170.36612641011436,"MOGAS, SALVADOR",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,POTI,POTI,202.5542172509187,184.12426715130647,0.0,Early Giant,8,77.27807493962787,light
+2014-P,508,999.9144347433412,"Mendi, Ruben",,Other,Spain,Concurso Calabazas Gigantes de Valtierra,Carlos Callen 347 kg,Wallace 2009 lb,357.2534586492403,1140.5130661994417,0.0,Big Max,8,453.56118759957957,medium
+2016-P,1490,199.30257299586972,"ALBA, SERGIO",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,,,203.79030679140132,175.9481308369188,4.862182684757835,Rouge Vif d’Etampes,8,90.40364711092651,light
+2017-P,1450,209.10869408313275,"Sesma, Francisco",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Casper,8,94.85170363610901,light
+2017-P,1094,523.8561945723433,"VERGARA, JOSE JAVIER",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Dill's Atlantic,8,237.6211698580149,medium
+2018-P,544,995.178433876877,"segales, miguel",St. Maria Palau Tordera,Other,Spain,Concurso Calabazas Gigantes de Valtierra,1452.8 Hoffmann 2016,1452.8 Hoffmann 2016,352.54908423980277,948.3750642124857,3.028811541866461,Dill's Atlantic,8,451.4129376065514,medium
+2017-P,884,690.2014739717888,"VERGARA, JOSE JAVIER",cantalobos,Aragon,Spain,Concurso Calabazas Gigantes de Valtierra,939.6 Karkos 2015,1734.5 Clementz 2015,0.0,0.0,,Cinderella,8,313.0753885936034,medium
+2015-P,1618,202.50356429313723,"Perez Osta, Francisco Javier",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,213.48539761269055,221.2385329133079,0.0,Wolf,8,91.85561676336705,light
+2019-P,DMG,1633.005758637302,"Lopez, Manuel",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1875 MENDI 2017,2528 GEDDES 2018,407.8211816866853,1544.657805525198,3.925899913793861,Wolf,8,740.7314121178803,heavy
+2019-P,1420,234.05032944474544,"BAROJA, JESUS",Sallent,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),,,0.0,0.0,0.0,Dill's Atlantic,8,106.16522943613653,light
+2015-P,1787,29.904918708614968,"SAGA, MIQUELS",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Dill's Atlantic,8,13.56487112622775,light
+2020-P,661,782.6541617094831,"ADRIAN , MIKEL",,Navarre,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2252.3 Paton 2016,self,346.288968764615,898.9890603451867,0.0,Casper,8,355.0119277514215,medium
+2020-P,2,2614.07436320249,"Mendi, Jose Miguel",VALTIERA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2183.7 Mendi 2019,self,495.9061929561626,2303.494479100027,12.8267950705173,Cinderella,8,1185.7441311486496,heavy
+2021-P,159,1580.014614468317,BAROJA,san feliu de codinas,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),"2183,7 Mendi 2019","2183,7 Mendi 2019",412.0153262670919,1581.0128621414087,0.0,Prizewinner,8,716.6946291228286,heavy
+2021-P,176,1629.6697061590362,"JIMENEZ, SUSANA",Valtierra,Navarre,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2551.9 Mendi 2020,"2183,7 Mendi 2019",427.7195637847425,1524.0733998714718,9.065556894820352,Rouge Vif d’Etampes,8,739.2181787137388,heavy
+2019-P,DMG,1073.4904987676057,"Mendi, Ruben",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2031 MENDI 2017,2031 MENDI 2017,363.3709109309737,1049.6011792793918,0.0,Rouge Vif d’Etampes,8,486.9352902409859,medium
+2019-P,1064,457.8378943727489,"ADRIAN, LOPEZ",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,,,266.48303740584595,525.245838991554,0.0,Big Max,8,207.6752688874789,medium
+2015-P,1155,574.2395768593987,"Lozano, Aitor",Tolosa,Other,Spain,Concurso Calabazas Gigantes de Valtierra,2058 Hawkley,2058 Hawkley,332.9499391285553,891.6012113105833,0.0,Champion,8,260.4750720634232,medium
+2017-P,1450,196.77878089500575,"Mendi, Ruben",TUDELA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Spirit,8,89.25885501397461,light
+2021-P,1097,308.12054810454083,"Martinez Miranda, Angela",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,252.79226028177536,361.38787737726005,0.0,Big Max,8,139.76348062021972,medium
+2014-P,1590,158.18743010223642,"Mendi, Ruben",Sant Feliu de Codines,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,195.17922220021157,150.23889306976557,6.084973009520697,Wolf,8,71.75381829437444,light
+2021-P,176,1518.026868107465,"Ruben, Mendi",VALTIERA,Navarre,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2551.9 Mendi 2020,"2183,7 Mendi 2019",415.58656303307225,1441.3308088649085,9.017094479755414,Dill's Atlantic,8,688.5769873735461,heavy
+2016-P,1486,203.05234870424135,"Mena, Manuel",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,208.16672542660436,223.8957699500693,0.0,Connecticut Field,8,92.10454537224388,light
+2015-P,988,698.4590689309858,"Mendi, Jose Miguel",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,520Kg Carlos Callen,Self,312.78574042199796,792.109984287708,0.0,Early Giant,8,316.82103366709515,medium
+2016-P,1110,533.6296321739821,"MOGAS, SALVADOR",VALTIERA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,291.30236172718213,539.4750030882499,0.0,Spirit,8,242.0544011541183,medium
+2018-P,434,1082.4685962579006,"Delgado, AneyMikel",sidamon,Catalonia,Spain,Concurso Calabazas Gigantes de Valtierra,2145.5 McMullen 2015,open,362.0001885636436,1153.0556697734798,0.0,Cinderella,8,491.0077552625837,medium
+2016-P,1640,54.99832719899346,"MIRAL, ANGEL",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Early Giant,8,24.947241217463432,light
+2017-P,522,1030.88994290997,"GARBAIZ, ENEKO",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,2095.5 Willemijns 2016,1392.4 CALLEN 2016,0.0,,0.0,Early Giant,8,467.6116781039624,medium
+2019-P,1420,238.24860789672093,"casanoves, albert",,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),,,0.0,0.0,0.0,Casper,8,108.06956854195262,light
+2016-P,1631,69.17240915446557,"Mendi, Ruben",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Atlantic Giant,8,31.37660479246558,light
+2017-P,30,1773.6982930587303,"GABIN, CESAR",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,2145.5 McMullen 2015,SIBB,,1560.973010108449,10.130979781498333,Wolf,8,804.54954573144,heavy
+2015-P,1725,115.43714144541212,"Zubelzu, Jose Manuel",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,178.82727433689766,149.23054094219825,0.0,Prizewinner,8,52.36228735963894,light
+2015-P,1696,135.46891773945285,"GONZALEZ, POTI",,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Spirit,8,61.44870108661581,light
+2020-P,EXH,1959.812956789085,"Cabezuelo, Lucia",valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1911 Urena 2017,1911 Urena 2017,446.3669744324213,1923.5990500286368,4.026621772176921,Jack O'Lantern,8,888.971157199529,heavy
+2015-P,1619,180.6251452934895,"Gonzalez, Josep M.",Fitero,Other,Spain,Concurso Calabazas Gigantes de Valtierra,429Kg Ruben Mendi,Self,199.24658831401317,195.7735022928169,0.0,Blue Hubbard,8,81.93156590512685,light
+2019-P,145,1526.3254764414764,"Aguilar, Javier",Valtierra,Navarre,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),2255 Zackosky 2018,2255 Zackosky 2018,402.00111539297944,1434.052397266377,8.889893298149865,Big Max,8,692.3412361138537,heavy
+2016-P,1486,206.28273363192972,"Callen, Carlos",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,207.14869031972032,203.3102157221616,0.0,Spirit,8,93.56984797544332,light
+2016-P,1490,210.8923709422366,"Gascon, Raul",,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,,,201.9031018509992,199.63437677234708,5.031804907797702,Blue Hubbard,8,95.66077945939853,light
+2021-P,488,1009.64855213765,"segales, miguel",SANTA MARIA PALAUTORDERA,Catalonia,Spain,Feria de la Calabaza de Sant Feliu de Codines (BARCELONA),,,424.2779246124488,1484.4653176708475,0.0,Atlantic Giant,8,457.97658324963805,medium
+2016-P,1475,190.42867187498945,Hualde,VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,,239.795450705798,0.0,Cinderella,8,86.37844556249522,light
+2015-P,1497,291.9072026005766,"MOGAS, SALVADOR",Lalueza,Other,Spain,Concurso Calabazas Gigantes de Valtierra,330Kg Ruben Mendi,,228.55163541768735,299.3635742839684,0.0,Cinderella,8,132.40910709962156,medium
+2019-P,7,2185.315349064726,"ETXEBERRIA, ANDRES",VALTIERRA,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,1911 urena 2017,2469 daletas 2018,486.9091474440494,2271.6387999372055,1.00391028775833,Atlantic Giant,8,991.2590423357597,heavy
+2015-P,1695,130.9575610321696,"Jose MIguel, MENDI",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Connecticut Field,8,59.40234968419213,light
+2018-P,31,1897.295272748317,"PEREZ OSTA, FRANCISCO JAVIER",valtierra,Navarre,Spain,Europameisterschaft im Kurbiswiegen,2031 Mendi 17,self,447.2554520747062,1758.574467822928,8.736461371599281,Prizewinner,8,860.6131357186366,heavy
+2015-P,1750,88.32131742137858,"Mendi, Neyen",Lalueza,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,,Jack O'Lantern,8,40.062549582337326,light
+2017-P,1494,141.89221279340575,"Navarro Perez, Juaquin",AUTOL,La Rioja,Spain,Concurso Calabazas Gigantes de Valtierra,,,,0.0,0.0,Atlantic Giant,8,64.36230772308885,light
+2015-P,EXH,356.9317115568818,"Lopez, Irene",Bunuel,Other,Spain,Concurso Calabazas Gigantes de Valtierra,429kg Ruben Mendi,,245.01853910549255,358.6256498758325,1.0034655715001692,Connecticut Field,8,161.90422436220157,medium
+2021-P,385,1121.644804377178,"JIMENEZ, SUSANA",,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,,,388.1795677291262,1239.466616780382,0.0,Atlantic Giant,8,508.7780832654879,medium
+2015-P,1742,89.80908579634668,"LOZANO, AITOR",St. Maria Palau Tordera,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,0.0,0.0,0.0,Champion,8,40.737401317222854,light
+2014-P,EXH,95.09651255041082,"Bayo, Manuel",Valtierra,Other,Spain,Concurso Calabazas Gigantes de Valtierra,,,164.55612902564917,108.0128156876364,0.0,Blue Hubbard,8,43.135778092866346,light
+2014-P,833,714.7127035954775,"BAROJA, JESUS",Valtierra,Navarre,Spain,Concurso Calabazas Gigantes de Valtierra,Mendi 330 kg,Urena 1401 lb,300.66650782011925,692.7230297247836,2.067765669989921,Connecticut Field,8,324.1936823509086,medium
+2014-P,1697,82.33949949774541,"Kitahara, Mitsuji",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,37.34919697217732,light
+2017-P,1542,90.557177172424,"Kuroda, Takahito",Ishii,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,41.07673556541153,light
+2018-P,1228,456.1937266827604,"4th Grade, Tonosho Primary School",Sanuki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Early Giant,8,206.92947442330012,medium
+2017-P,1586,20.15641398104983,"Hayashi, Kishio","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,9.142949381804202,light
+2016-P,1658,16.472421590458485,"Nibu, Aiko",Akune,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,7.471890433431969,light
+2018-P,1711,62.69912209266935,"Nibu, Noriyuki",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,28.440321781234818,light
+2020-P,1326,84.98549077681756,"Kawasaki, Masanobu","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,38.54941861636444,light
+2015-P,1555,245.39465455527684,"Kojima, Sokontokoro",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,111.31101530627357,light
+2017-P,1564,67.53194746903701,"Kuroda, Takahito",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,30.632491371955187,light
+2017-P,752,729.8729637421975,"Ito, Shigenobu",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,331.0703763534608,medium
+2017-P,587,967.6691750457292,"Nibu, Kanehiro",Hara,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,438.93473780074277,medium
+2017-P,1583,30.69949881225847,"Shiratori, Kazuyuki",Ayagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,13.92529266124044,light
+2017-P,1353,308.3772060558477,"Ito, Yoshihiro",Kurashiki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,139.8799006669325,medium
+2020-P,1329,88.83996636263255,"Ueno, Koji","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,40.297808742090126,light
+2017-P,979,517.7865856165165,"Minami, Kanetoshi",Nagano,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,234.86799523565188,medium
+2019-P,1613,114.22180266305853,"Kuroda, Takahito",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,51.81100968796335,light
+2018-P,746,855.1328032112764,"Nibu, Noriyuki",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,387.88823953663496,medium
+2017-P,813,710.8754464834768,"Makita, Osamu",Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,322.4531025249051,medium
+2018-P,1753,13.10601030865768,"Kondo, Eiji",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Blue Hubbard,8,5.944886276007124,light
+2013-P,788,593.9434239143034,"Tada, Tamon",Hyogo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,269.412737087528,medium
+2016-P,1139,454.21744946963287,"Kuroda, Takahito","Kamokawa, Chiba",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,206.03303507942547,medium
+2017-P,1530,101.61361200485727,"Komatu, Masatosi",Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,46.09193440540326,light
+2016-P,1613,79.26496569467858,"Oka, Tadaichi",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,35.9545884391062,light
+2018-P,852,708.9404536370758,Shinyokoe Hoikuen Raiongumi,Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,321.5753897697776,medium
+2020-P,1379,45.27621748452347,"Sudo, Yoichi",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,20.537292250979846,light
+2013-P,1079,343.1030140791636,"Sozu, Hisao",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,155.6315271863086,medium
+2019-P,1613,105.75707659809224,"School, Kisomisaki Primaru","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,47.97140994489464,light
+2019-P,1701,47.12414612919651,"Successor Club 2, Ishii Town Agricultural",Kobe,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,21.37551268420354,light
+2015-P,1786,29.16816162023296,"Sasaki, Toshiki",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,13.23067811093767,light
+2014-P,1538,196.88488950163227,"Okayama, Ryoji",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,89.3069858779404,light
+2019-P,1556,144.92409786074273,"Sano, Takeshi",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,65.7375707896329,light
+2013-P,294,1111.458268841957,"Nakagawa, Takao",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,504.15747074671174,medium
+2017-P,1455,196.13279532890888,"Fujii, Sumie",Sakaide,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,88.96583596119306,light
+2019-P,1563,155.9020834378844,"Yokozawa, Yozaemon",Mie,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,70.71718504742435,light
+2017-P,1580,40.742216981837906,"Sasaki, Toshiki",Shimanto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Autumn Gold,8,18.480669622961674,light
+2018-P,1049,575.4034666115031,"Takayama, Itsuo",Nagano,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,261.0030124549778,medium
+2018-P,839,765.5447079970804,"Ito, Masayuki",Higasine,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,347.2510795474757,medium
+2019-P,990,539.8688184617624,"Tada, Tamon",Izumo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,244.88449605425544,medium
+2013-P,1389,156.73275917191165,"Kuzunishi, Takamiti",Shimoniikawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,71.09397956037913,light
+2018-P,1680,90.0200846429107,"Takahashi, Katumi","Marugame, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,40.833110394024295,light
+2018-P,839,757.0864224080951,"Otaki Vegetable Garden - Watanabe, Isamu",Kanonji,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,343.41440120431196,medium
+2019-P,1701,47.97303131442763,"Yada, Kazuyo",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,21.760567004224374,light
+2020-P,901,510.9585018824154,"Ito, Yoshihiro",Katuura,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Cinderella,8,231.77077645386365,medium
+2020-P,984,478.77079015062054,"Hannan, Kagawa Agricultural cooperative",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,217.17043041232148,medium
+2018-P,1711,63.09208041240951,"Shimizu, Shunsuke","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,28.618567675068952,light
+2013-P,1513,64.54510862737764,"Tada, Tamon",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Casper,8,29.2776612733785,light
+2019-P,1521,170.8040552564033,"Ito, Yoshihiro",Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,77.47671946430454,light
+2017-P,1576,51.91486683912602,"Yato, Nobuyuki",Ayagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,23.548583598227562,light
+2013-P,1517,58.67785263614549,"Yamada, Takao",Asago,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,26.616273955755595,light
+2019-P,1644,88.82988288429004,"Syogakko, Yasuda","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,40.29323487631397,light
+2019-P,1683,66.56676393877794,"Watanabe, Osamu","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Big Max,8,30.194684122629674,light
+2020-P,1369,61.29128497776922,"Nibu, Tatuki",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,27.80172686591612,light
+2013-P,1529,33.82586432953581,"Ito, Yoshihiro",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,15.343412059877444,light
+2018-P,1718,57.24536458605636,"Hayashi, Junko",Shima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,25.966497376235164,light
+2019-P,1410,234.82877414140424,"Miki, Yoshie",Nagai,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,106.51833195054097,light
+2013-P,1209,272.2326919999975,"Yada, Kazuyo",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,123.48474909119886,light
+2014-P,829,786.6547970842042,"Kitahara, Yuji",Kanonji,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,356.82661595739506,medium
+2018-P,1088,612.6835640569583,"Ueno, Koji",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,277.91326465623627,medium
+2018-P,984,646.5702875046982,"Yada, Izumi",Izumo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,293.2842824121311,medium
+2017-P,1566,67.51919101167913,"Kuroda, Takahito",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,30.62670504289765,light
+2017-P,1552,74.63965095458455,"Yamamoto, Noritami",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,33.85654567299955,light
+2020-P,1079,334.1747270899225,"Uematsu, Nobuyuki",Tendo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,151.58165620798886,medium
+2018-P,1744,30.236606535436632,"Furukawa, Yasunori",Sayo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,13.715324724474057,light
+2018-P,1711,63.69587616656908,"Okaue, Machiko","Kyotango, Kyoto",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,28.892449429155736,light
+2015-P,1794,20.69633314914831,"Oka, Tadaichi","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,9.387856716453673,light
+2017-P,929,610.8155249553173,"Honda, Chiwako",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,277.0659221197319,medium
+2016-P,1653,29.656601051304204,"Nakamura, Tomio",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,13.452234236871586,light
+2014-P,1728,54.405239851073055,"Naka, Yoichi",Nagano,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,24.678216796446737,light
+2015-P,1776,46.59689729006448,"Uematu, Hiromasa",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,21.13635261077325,light
+2017-P,1534,95.47183637143218,"Takahashi, Masahiro",Sakai-shi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,43.30602497808164,light
+2017-P,660,913.7268963294816,"Nishikawa, Akira","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Atlantic Giant,8,414.4665201750529,medium
+2014-P,1732,46.57859647049387,"Ueno, Tuyoshi",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,21.12805135901602,light
+2019-P,1296,314.34806876048765,"Sasaki, Toshiki",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,142.5882839897572,medium
+2019-P,1027,518.1838817574172,"Ueno, Koji","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,235.04820876516445,medium
+2014-P,528,921.0703883507268,"Oka, Tadaichi","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,417.79752815588967,medium
+2016-P,1655,22.67470071077304,"Kimata, Yasuo",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,10.28524424240665,light
+2018-P,1514,215.74875414871624,Kobe-Tokiwa Girls HighSchool,Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,97.86363488185769,light
+2019-P,1027,523.5535898949597,"Ito, Yoshihiro","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,237.48390837635372,medium
+2018-P,852,752.4475916048564,"Takiguchi, Koichirou",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Casper,8,341.31022755196284,medium
+2016-P,1658,15.638960028966023,"Nishiyama, Hiroshi",Okayama,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,7.093832269138988,light
+2018-P,1735,43.62991734880958,"Kojima, Sokontokoro",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,19.790530509420023,light
+2013-P,1513,67.76284155109663,"Tanaka, Akihiko",Akune,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,30.73722492757743,light
+2020-P,1339,79.02685851523613,"Ito, Machiko",Hara,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,35.846583022511105,light
+2013-P,1513,62.606061668739606,Higashikagawa Junior Chamber,Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,28.398109572940285,light
+2015-P,1782,37.32860567598232,"Hirakawa, Ataru",Higasine,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,16.93225553462558,light
+2019-P,1704,38.39037964888528,"Fujiwara, Norihisa","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,17.41387620873436,light
+2015-P,944,626.8329770539533,"Kitahara, Kazuhiro","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,284.3314383916732,medium
+2017-P,929,609.3290503336813,"Watanabe, Osamu",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,276.39165723135784,medium
+2014-P,1036,600.788876468722,Kikkoman Biochemifa Company,Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,272.5178343662123,medium
+2020-P,1202,226.5887889100478,Sanuki Junior Chamber,"Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,102.78067464959769,light
+2016-P,917,676.6996542281472,"Taho, Jiro",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,306.9509631578876,medium
+2015-P,1446,365.1984234671444,"Okano, Yoshiyuki",Sakai,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Blue Hubbard,8,165.6540048846967,medium
+2017-P,1564,67.97282014655863,"Kuzunishi, Takamichi",Kuwana,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,30.832471218478997,light
+2020-P,1240,187.77043347987896,"Nibu, Kanehiro",Kurashiki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,85.1726686264731,light
+2018-P,705,913.6340683491308,"Nibu, Hisao",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,414.4244134031657,medium
+2018-P,1729,48.555073768674745,"School, Kisomisaki Primaru",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,22.024581461470866,light
+2019-P,1377,275.2750751981907,"Grouphome, Ainosato",Okayama,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,124.86477410989929,light
+2019-P,1308,325.2652287183781,"Mizutani, Syouiti",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,147.5403077466563,medium
+2019-P,1485,185.8507752825581,"Ooe, Yukio",Kagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,84.30191166816834,light
+2014-P,829,743.6447618948084,"Ito, Yoshihiro",Higasine,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,337.3172639954851,medium
+2013-P,688,704.5185990957532,"Hanai, Tamekazu","Isumi, Chiba",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,319.56963654983366,medium
+2019-P,929,587.4882364320231,"Yukio, Ooe",Takamatsu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,266.4846640455657,medium
+2019-P,835,622.7449291827018,"Takahashi, Masahiro",Kanonji,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,282.47709987727353,medium
+2019-P,1613,96.8772910780495,"Yamada, Takao",Katsura,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,43.94353923300325,light
+2019-P,1559,144.636580051642,"Mochizuki, Yasutoshi",Kagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,65.60715271142482,light
+2013-P,1517,51.28223052701786,"Matumoto, Minori",Akune,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,23.2616197670553,light
+2013-P,504,791.210984587565,"High School, Izumo-Norin",Hyogo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,358.8933026089195,medium
+2015-P,1604,217.7050262747369,"Naka, Yoichi",Ayagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,98.75099991822066,light
+2014-P,1436,319.6392921044876,"Kitahara, Fusako",Kanonji,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,144.98838289859557,medium
+2018-P,654,944.1782999884658,"Citybunkajigyoubu Koga, Kabuchikigaisha Jrhakata","Yatomi, Aichi",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,428.2792768747681,medium
+2018-P,1711,60.78855549386357,"Oka, Tadaichi",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,27.573688772016514,light
+2014-P,1706,72.99003753063126,"Kinoshita, Sosuke",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Wolf,8,33.108281023894335,light
+2016-P,1650,28.77415537337186,"Ito, Masayuki",Takamatsu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,13.051956877361475,light
+2015-P,1006,689.0562279731683,"Kuroda, Takahito",Sakai-shi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,312.55590500862917,medium
+2016-P,918,706.2713812618653,"., Tonoshochoshokokai","Hokuto, Yamanashi",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,320.3646985403821,medium
+2019-P,1454,199.32652832956225,"Tuchida, Takehiko",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,90.41451325028943,light
+2015-P,1006,664.9415502885773,"Tanabe, Noriaki","Hokuto, Yamanashi",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,301.6174872108987,medium
+2017-P,1164,437.3686767863083,"Utsunomiya, Hiroyoshi",Chosei,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,198.39043179026945,medium
+2016-P,1650,29.983613690938125,"Fujiwara, Norihisa",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,13.600567170209533,light
+2017-P,1580,41.9874624439,"Hayashi, Kishio",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,19.04551296455304,light
+2014-P,1622,141.3669267524081,"Fujii, Sumie","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,64.12403797489232,light
+2017-P,845,660.8024673902194,"Uematsu, Nobuyuki",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,299.7399992082035,medium
+2020-P,1202,209.80777096060945,"Itou, Masayuki",Kurashiki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,95.16880490773245,light
+2019-P,1027,505.70998412334166,"Nibu, Hisao",Kagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,229.39004879834778,medium
+2020-P,1362,56.36579007935038,"Furukawa, Yasunori",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,25.567522379993335,light
+2020-P,1205,210.46034191817483,Higashikagawa Junior Chamber,Mie,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,95.46481109408411,light
+2019-P,1698,46.444636982693815,"Mizutani, Syouiti","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,21.067287335349913,light
+2014-P,1589,165.53061521353078,"Hamanaka, Norihito","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,75.08468706085756,light
+2016-P,1626,72.57304069352715,"Iguchi, Hidetoshi",Higasine,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,32.91913125858392,light
+2020-P,1149,276.27858439029126,"Hashimoto, Dai",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,125.31996587943611,light
+2018-P,1729,52.923557025236455,"Yochien, Tonosho",Marugame,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,24.006125466647255,light
+2020-P,1326,92.20848885985654,"Yada, Tsunehisa","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,41.82577054683093,light
+2013-P,1310,234.29049320398133,"Kanechika, Tsuyoshi","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Connecticut Field,8,106.27416771732594,light
+2020-P,1326,90.09605867317012,"Furukawa, Yasunori",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,40.867572214149966,light
+2020-P,1360,59.55945566793118,"Yada, Kazuyo",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,27.016169090973584,light
+2016-P,1653,25.581304247369737,"Hanai, Tamekazu",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Autumn Gold,8,11.603679606606912,light
+2015-P,794,819.6730480055382,"Yada, Tsunehisa",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,371.80369457531214,medium
+2016-P,1658,14.227466168949524,"Fujioka, Tadashi",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,6.453578654235504,light
+2019-P,1296,306.3514430703981,JA Hannantiiki Joseibu,Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,138.96101457673257,medium
+2017-P,1573,58.51680949625477,"Yada, Tunehisa",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,,Prizewinner,8,26.543224787501163,light
+2016-P,1416,290.4367930413007,"Mihara, Noriko",Sakai-shi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,131.742129323534,light
+2020-P,1219,205.1255668775152,"Ueno, Tuyoshi",Sakai-shi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,93.0449571356409,light
+2020-P,1388,19.975077477284767,"Hashimoto, Dai",Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,9.060695143696371,light
+2018-P,1745,31.675112454493807,"Akatani, Hiroshi",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,14.36783100935839,light
+2016-P,1606,93.2200003206476,"Hamano, Ryoichi",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,42.28459214544575,light
+2020-P,1198,253.90724462403287,"School, Kisomisaki Primaru",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,115.17232616146131,light
+2016-P,1656,17.67489730359715,"Yada, Tsunehisa","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,8.017333416911667,light
+2016-P,1187,469.7917904281761,"Utsunomiya, Hiroyoshi",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Casper,8,213.09755613822068,medium
+2019-P,1556,144.4806439803026,Mitoyo Junior Chamber,Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,65.53642010946525,light
+2018-P,654,1005.6940778062456,Mitoyo Junior Chamber,"Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,456.182833692913,medium
+2013-P,1089,356.19661991020706,"Nibu, Hinako","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,161.57078679126994,medium
+2015-P,1564,243.1223636861265,"Ito, Yoshihiro","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,110.28030416802699,light
+2018-P,839,771.7385594500577,"Tada, Tamon","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,350.06061056654613,medium
+2016-P,594,1055.5880740046653,"Shimizu, Shunsuke",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,478.8147503685162,medium
+2020-P,1380,39.76423176710865,"LTD, SANKO KOGYO CO","Marugame, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,18.037055529560483,light
+2020-P,1338,84.39618484724241,"Takanashi, Yoshinori",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,38.28210944670916,light
+2019-P,727,729.3187920182422,"Ueno, Koji",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,330.81900405947465,medium
+2015-P,677,860.3473170502789,"Ito, Yoshihiro",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,390.2535430140065,medium
+2016-P,594,1012.7810576704114,"Kuroda, Takahito",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,459.3974877592986,medium
+2017-P,1229,382.8539618728235,"Kitahara, Mitsuji",Kuwana,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,173.66255710551275,medium
+2018-P,1042,553.5904522088676,"Ito, Masayuki",Katsura,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,251.10862912194236,medium
+2016-P,1649,31.260844738323076,Kobe-Tokiwa Girls HighSchool,"Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,14.179919173303347,light
+2020-P,1165,276.2861521047476,"Hashimoto, Dai","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,125.32339859471351,light
+2018-P,1729,49.11862164506166,"Watanabe, Osamu",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,22.280206778199968,light
+2019-P,929,616.1909823418372,"Nishiyama, Hiroshi",Hyogo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,,0.0,Autumn Gold,8,279.50422959025735,medium
+2013-P,1310,240.38238199624104,"Takahashi, Masahiro",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,109.03744847349493,light
+2017-P,1522,115.45729118883028,"Tokunaga, Hazuki",Akune,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,52.37142728325342,light
+2017-P,1586,21.035271823004983,"Kuzunishi, Takamichi",Kanonji,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,9.54159929891506,light
+2014-P,1728,52.42037389828625,"Yada, Tsunehisa",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Wolf,8,23.777881600262642,light
+2016-P,594,1047.487689166998,"Mizutani, Kenjiro",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,475.1404158061503,medium
+2016-P,1238,428.11101392701306,"Minami, Kanetoshi","Takahashi, Okayama",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,194.19115591729312,medium
+2017-P,1087,503.8657811944016,"Ito, Tamio",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Howden,8,228.55351834978057,medium
+2013-P,1534,21.129810136606817,"Ito, Nobuyoshi",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,9.584481877964853,light
+2020-P,1240,187.2592275892335,"High School No 2, Nogyokeiei","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,84.94078563447631,light
+2017-P,1586,19.30297871482463,"Ito, Masayuki",Kurashiki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,8.755831145044452,light
+2015-P,1788,26.13903465840594,"Nishiyama, Hiroshi","Hokuto, Yamanashi",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,11.856666121052935,light
+2018-P,832,778.9440400937614,"Ooe, Yukio","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,353.32901658653014,medium
+2019-P,1727,21.352820411877214,"Sugita, Makoto","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,9.685639338827505,light
+2018-P,1750,21.58816107759994,"Nakamura, Tomio",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,9.792389864799333,light
+2020-P,1351,67.18323458653634,"Group, Shozugunseikatukenkyu Group",Ishii,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Prizewinner,8,30.474315208452886,light
+2013-P,727,627.8090351568128,"Nagai, Shigetoshi",Higasine,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,284.77417834713026,medium
+2013-P,1244,267.4017680530187,"Nishiyama, Hiroshi",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,121.2934419888493,light
+2015-P,1592,218.58239522713484,"Kuroda, Takahito",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,99.14897447502837,light
+2020-P,1386,29.058841599765973,"Nibu, Hinako",Higasine,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,13.181090549653845,light
+2019-P,1454,218.81977815338385,"Uematsu, Nobuyuki",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,99.25665137037491,light
+2016-P,654,883.3162530737659,"Oka, Tadaichi",Kagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,400.6722523942602,medium
+2019-P,1559,151.67508459407625,"Yato, Nobuyuki",Takahashi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,68.79981837187299,light
+2016-P,1570,122.18970408658772,"Hiroshi, Kawakami",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,55.42524977367619,light
+2014-P,1726,55.538221011365415,"federation council, Higashiueta Healthy youth development",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,25.192137050755353,light
+2016-P,918,682.4579726857669,"Watanabe, Osamu",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,309.5629364102639,medium
+2019-P,1673,70.67383370104525,"Nakajima, Kosuke","Marugame, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,32.05765096679413,light
+2019-P,1175,382.75679385116274,"Kuroda, Takahito","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Atlantic Giant,8,173.61848169088742,medium
+2015-P,1380,399.4752472392538,"High School No 1, Nogyokeiei",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,181.2019721477255,medium
+2017-P,608,848.1219245905613,"Ooe, Yukio",Kuwana,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,384.70810499427864,medium
+2018-P,1724,59.111786447355655,"Nagashimo, Takeitiro",Okayama,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,26.813106332520526,light
+2018-P,832,769.0367416831454,"Horikawa, Masaru",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,348.83506602747474,medium
+2016-P,1606,91.76715697312788,"Mizutani, Kenjiro","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,41.62558240301081,light
+2014-P,1576,169.61091200726332,"Takahashi, Masahiro",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Casper,8,76.93550968649464,light
+2014-P,1538,203.94300140496736,Higashikagawa Junior Chamber,Kagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,92.5085454372932,light
+2016-P,1626,68.74363792318488,"Shimizu, Takenori",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,31.18211416195666,light
+2013-P,438,948.6421738037988,"Tanaka, Akihiko","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,430.3040900374031,medium
+2015-P,1786,31.69358739477116,"Kuzunishi, Takamiti",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,14.376211242268198,light
+2014-P,528,1001.8057893606668,"Hirakawa, Ataru",Shirako,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,454.41910605399846,medium
+2018-P,1751,21.964214210622533,"Yada, Tunehisa",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,9.962967565938381,light
+2014-P,1348,371.4242824078071,"Sudo, Yoichi",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,168.4780545001813,medium
+2013-P,727,617.579637983397,"Uchida, Hidenori",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,280.13412378926887,medium
+2020-P,984,474.8829072239525,"Kurahashi, Seiko",Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,215.40688671678484,medium
+2019-P,1702,41.30227579439692,"koko, Izumonorin",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,18.734712300338444,light
+2017-P,1491,157.30636397677304,"Mochizuki, Yasutoshi",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Howden,8,71.35416669986425,light
+2013-P,1310,227.42832856352896,"Mizutani, Masakazu",Takahashi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,103.16148983641673,light
+2017-P,752,775.9849708196102,"Ito, Tamio","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,351.9867827637752,medium
+2019-P,832,614.1739105956009,"Successor Club 1, Ishii Town Agricultural",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,278.58928584616456,medium
+2020-P,1213,210.2707568064849,"Kawasaki, Masanobu",Marugame,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,95.37881528742156,light
+2015-P,1592,219.57930646940017,"Uematu, Kikuo","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,99.60117341451992,light
+2020-P,1338,87.83651002463944,"Yada, Tunehisa","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,39.84264094717645,light
+2015-P,1704,129.43313133180462,"Hamanaka, Kozou","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,58.710868372106574,light
+2016-P,1416,247.9413126816425,"Sasaki, Toshiki",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,112.46617943239303,light
+2016-P,918,717.6231466794075,"Ito, Yoshihiro",Saiyo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,325.51385933377924,medium
+2015-P,1776,44.6094387393012,"Itou, Kimiko",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,20.234841412147023,light
+2013-P,294,1093.2472484778846,"Mizutani, Masakazu",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Blue Hubbard,8,495.89695190956843,medium
+2017-P,1087,464.2525344213779,"Mizutani, Kenjiro",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,210.58494961353702,medium
+2014-P,1595,160.83124935563887,"Seinebu, Tonoshochoshokokai",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,72.9530547077178,light
+2020-P,752,719.429327669587,"Mizutani, Shoiti",Sanuki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,326.33314303092465,medium
+2017-P,1588,13.70146701096142,"Tanito, Nobuyuki",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,6.2149854361721,light
+2020-P,1369,55.970473757954274,"Fujioka, Tadashi",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,25.388206896608057,light
+2018-P,1593,150.93896580170727,"Naka, Yoichi","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,68.46591488765442,light
+2016-P,708,814.4067046707148,"Nishizaki, Hideki",Takahashi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,369.41488123863627,medium
+2016-P,1653,26.41228920444628,"Hirakawa, Ataru",Ayagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,11.980614383136833,light
+2017-P,1552,85.07743499908352,"Yukio, Ooe",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,38.59112451558428,light
+2013-P,1209,300.647535356989,"Kondo, Eiji",Kuwana,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,136.3737220379302,medium
+2019-P,929,665.7823899435962,"Oka, Tadaichi","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,301.9988920784152,medium
+2018-P,852,806.7195027027115,"Yada, Tsunehisa",Takahashi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,365.92796642594993,medium
+2020-P,1205,225.06547709695255,"Nishiyama, Hiroshi",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,102.08970041117767,light
+2018-P,1465,267.959641218175,"Sozu, Hisao",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,121.54649325656419,light
+2017-P,929,587.3392867015266,"Shimizu, Takenori",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,266.41710044781246,medium
+2014-P,1075,560.9629599999348,"Naka, Yoichi",Sakai,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,254.45279865597044,medium
+2018-P,1724,56.97712089670875,"Kuzunishi, Takamiti",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,25.84482203874709,light
+2017-P,1579,43.39084260161723,"Fujiwara, Norihisa",Okayama,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,19.682086204093576,light
+2016-P,654,956.3588261949892,"Takahashi, Sakutaro",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,433.8043635620471,medium
+2019-P,1702,47.288446802131055,"Ogata, Katsuhiko",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Blue Hubbard,8,21.450039469446647,light
+2019-P,1377,255.92130683118057,"Ueno, Koji","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,116.08590477862352,light
+2014-P,1576,173.59782226761047,"Sozu, Hisao",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,78.7439721805881,light
+2018-P,1751,22.482869435465425,"Hayashi, Kishio",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,10.198229575927117,light
+2018-P,1049,591.1523229170721,"Yada, Kazuyo",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,268.1466936751839,medium
+2019-P,1658,67.23652918597958,"Hayashi, Junko","Sabae, Fukui",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,,0.0,Howden,8,30.498489638760336,light
+2016-P,918,666.2167138614706,"Yada, Tsunehisa",Mie,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,302.19590140756304,medium
+2019-P,1622,102.16993340690634,"Okuda, Takefumi",Kagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,46.344281793372716,light
+2017-P,752,795.6137797201436,"Ueno, Koji",Mie,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,360.89041048105713,medium
+2017-P,1556,81.41195746743537,"Shiratori, Kazuyuki",Kamogawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,36.92846390722868,light
+2017-P,767,731.7305361375584,"Mizutani, Kentaro",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,331.91297119199646,medium
+2014-P,528,980.9838732698744,"Nakamura, Tomio",Fukuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,444.97428491521504,medium
+2019-P,1590,130.8958967042996,"Shimizu, Shunsuke",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,59.374378745070295,light
+2014-P,1726,61.314198738268075,"Tanabe, Noriaki",Kuwana,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,27.8121205476784,light
+2020-P,1298,131.1355940777095,Ainosono Hoikusho,"Marugame, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,59.483105473649026,light
+2014-P,1706,75.41297775552844,"Ishitoko, Mitsunori",Sakai-shi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,34.207326709907704,light
+2015-P,1405,350.9868995832239,"Oka, Tadaichi","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,159.20765765095035,medium
+2015-P,1380,418.5985631487381,Mitoyo Junior Chamber,Kobe,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,189.8763082442676,medium
+2014-P,1728,52.89330763108511,"Shiratori, Kazuyuki",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,23.992404341460205,light
+2014-P,1436,326.1137147799492,"Nagai, Shigetoshi","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,147.92518102418495,medium
+2017-P,1552,83.31763402475286,"Nishizaki, Hideki",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,37.7928787936279,light
+2020-P,1149,294.0068320743976,"Nakamura, Tomio",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,133.36149902894675,medium
+2020-P,1205,253.09594000909,"High School No 1, Nogyokeiei",Akune,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,114.80431838812322,light
+2014-P,1622,158.27810185145702,"Hamano, Ryoichi",Marugame,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,71.79494699982091,light
+2013-P,1534,23.599407899151313,"Kanechika, Tsuyoshi",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,10.704691423055035,light
+2018-P,1049,540.0486385333361,"Yukio, Ooe",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,244.96606243872125,medium
+2015-P,1024,683.1284222783961,"Kawasaki, Masanobu","Marugame, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,309.8670523454805,medium
+2017-P,1580,37.34090603753192,"Ikeda, Masaaki",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,16.93783497862448,light
+2019-P,1724,23.92275346139286,"Hurukawa, Yasunori","Kuwana, Mie",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Casper,8,10.8513609700878,light
+2014-P,1622,149.17532866579708,"Nibu, Hinako",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,67.66592908280556,light
+2016-P,1467,233.09409080693507,"Uematsu, Yuichi",Kanonji,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Howden,8,105.73147959002574,light
+2015-P,677,918.0524696999564,"Nishiyama, Hiroshi",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,416.4286002559002,medium
+2019-P,1707,38.14006069292221,"Sudo, Yoichi",Sakai,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,17.300331530309517,light
+2017-P,799,692.8481627831334,"Nibu, Hisao",Sakai-shi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,314.2759266384293,medium
+2018-P,1750,22.162070659222028,"Kitahara, Yuji","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,10.052715251023113,light
+2014-P,528,938.2489255225288,"Hanai, Tamekazu",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,425.5897126170191,medium
+2014-P,1595,152.50446096177788,"Naka, Yoichi",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,69.17602349226244,light
+2018-P,1749,23.884062978935457,"Uematu, Taiga",Kurashiki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,10.833810967245123,light
+2015-P,1570,239.704026389127,"Uematu, Taiga",Toyoake,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,108.729746370108,light
+2019-P,1559,148.0966500387908,JA Hannantiiki Joseibu,"Kyotango, Kyoto",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,67.17664045759551,light
+2017-P,1542,85.94749676036948,"Ishitoko, Mitsunori",Kagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,38.985784530503594,light
+2020-P,1298,126.8991586168241,"Okuda, Takefumi","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,57.56145834859141,light
+2017-P,619,950.572430963353,"Oka, Tadaichi",Takamatsu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,431.1796546849769,medium
+2019-P,1308,306.04309839452355,"kemifakabukabochakurabu, Kikkomanbaio",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,138.82114943175588,medium
+2017-P,1229,394.8854432339185,"Yada, Tunehisa",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,179.12003705090544,medium
+2015-P,1754,82.4911205691574,"Ito, Machiko",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Max,8,37.4179722901698,light
+2015-P,1793,23.524695601253693,"Yamamoto, Noritami",Marugame,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,10.670801924728675,light
+2016-P,1139,504.0919277751684,"High School, Izumo-Norin",Ayagawa,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,228.6560984388164,medium
+2014-P,1728,56.16122270867741,"Ito, Yoshihiro","Marugame, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,25.47473062065607,light
+2016-P,1615,76.02435352325487,"Nibu, Kenshiro","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,34.48464675814841,light
+2015-P,1793,24.64966274488768,"Fujiwara, Norihisa",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,11.181087021081053,light
+2013-P,1138,337.97910825063383,"Sasaki, Toshiki",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,153.3073235024875,medium
+2016-P,1187,442.59181593466496,"Yagi, Shigetoshi",Kurashiki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,200.75964770796404,medium
+2019-P,1704,40.83403652179796,"Kawasaki, Masanobu",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Howden,8,18.522318966287557,light
+2019-P,1372,255.16984039726285,"Fujioka, Tadashi","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Autumn Gold,8,115.74503960419842,light
+2019-P,1676,70.12880551724724,"High School No 1, Nogyokeiei","Kamokawa, Chiba",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,31.81042618262335,light
+2019-P,1694,56.776839990455294,"Shiratori, Kazuyuki",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,25.753974619670522,light
+2014-P,1732,48.22839564506955,Sakaide Junior Chamber,"Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,21.876400264603546,light
+2014-P,528,960.7798641416432,"Ooe, Yukio","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,435.80974637464936,medium
+2013-P,1244,262.7935164798488,"Sasaki, Toshiki",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Big Max,8,119.20313907525941,light
+2014-P,528,1007.6282517015076,"Group, Shozugunseikatukenkyu Group","Hokuto, Yamanashi",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Dill's Atlantic,8,457.06017497180386,medium
+2013-P,1389,153.56819985672263,"Takahashi, Masahiro",Shozu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Cinderella,8,69.65853545500939,light
+2014-P,1697,80.44885104801345,"Sasaki, Toshiki",Higasine,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,,0.0,0.0,Rouge Vif d’Etampes,8,36.4915988353789,light
+2018-P,1735,41.55293061699429,"Shinohara, Shigehiro",Izumo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,18.84840932786861,light
+2013-P,1524,42.246848105321384,"Nishiyama, Hiroshi","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Blue Hubbard,8,19.16317030057378,light
+2019-P,1683,61.89756930639988,"Ito, Machiko",Akumi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,28.076737437382985,light
+2020-P,1240,181.17151475755716,"Takahashi, Masahiro","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,82.17939909402793,light
+2013-P,1389,158.50354161595345,"Ueno, Tuyoshi","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,71.89720647699649,light
+2020-P,1328,97.70452941121802,"Nishiyama, Hiroshi",Saiyo,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Atlantic Giant,8,44.318774540928494,light
+2015-P,1782,42.347647184861586,"Takahashi, Masahiro",Chosei,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,19.208892763053214,light
+2014-P,972,648.7384413335504,"Ishitoko, Mitsunori",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,294.2677569888985,medium
+2016-P,1586,113.23541486469291,"Urataki, Noboru",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Jack O'Lantern,8,51.363584182624706,light
+2020-P,616,881.8481563070911,"Miki, Tomoko",Kuwana,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,,0.0,Wolf,8,400.00632370089653,medium
+2019-P,1352,266.309571375416,"LTD, SANKO KOGYO CO",,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,,Champion,8,120.7980215758887,light
+2018-P,746,846.0371217293224,"Yato, Nobuyuki",Okayama,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Jack O'Lantern,8,383.76243841642065,medium
+2015-P,1405,380.59618647626826,"Mizutani, Masakazu","Kamokawa, Chiba",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,172.6384301856353,medium
+2018-P,746,893.6135948373832,"Kobayashi, Hiroshi",Kurashiki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,405.343126618237,medium
+2013-P,1389,152.5424528346808,Takamatsu Junior Chamber,Takamatu,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,69.19325660581121,light
+2018-P,1334,369.0943920822733,"Yada, Tsunehisa",Takahashi,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Early Giant,8,167.4212162485192,medium
+2019-P,1704,46.00491788720282,"Ito, Masayuki",Shizuoka,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Big Moose,8,20.8678307536352,light
+2020-P,1240,199.5709576796061,"Makita, Osamu","Hokuto, Yamanashi",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Dill's Atlantic,8,90.52538640346933,light
+2018-P,1750,23.36618182628712,"Ito, Machiko",Tonosho,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Prizewinner,8,10.598900076403838,light
+2017-P,1353,306.25053667426613,"Mizutani, Syouiti",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,138.9152434354471,medium
+2020-P,1362,63.87100091586067,"Nakagawa, Takao",Kisomisaki,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Spirit,8,28.9718860154344,light
+2013-P,1524,43.53532882975087,"Grouphome, AINOSATO",Hokuto,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Wolf,8,19.747625157174994,light
+2020-P,1338,82.58898909412264,"Ikeda, Masaaki","Shozu, Kagawa",Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,37.46236545309403,light
+2020-P,1373,49.86569899001235,"Yada, Tsunehisa",Shodoshima,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Champion,8,22.6190810618696,light
+2014-P,528,1009.447771761288,"Yada, Tsunehisa",Noda,Other,Japan,Nippon Ichi Dodekabocha Taikai,,,0.0,0.0,0.0,Connecticut Field,8,457.88550927092024,medium
+2017-P,1070,486.7885996570974,"Tom, Brault",,Other,France,Le Potager Extraordinaire,691 Ludwig,,265.6842118887509,515.1676765501805,1.8945077864068205,Dill's Atlantic,8,220.80730880445938,medium
+2020-P,1210,206.953505317367,"Herve, Berthelot",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,210.7622485402147,219.448991787717,0.0,Connecticut Field,8,93.87411001195767,light
+2021-P,500,972.6613463671032,"Filliaudeau, laurent",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,336.03467028249963,983.4839598553424,0.0,Champion,8,441.19918671211803,medium
+2021-P,602,855.2601221112492,"Mehdi, Daho",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,Marand 924.8,,330.21861219274075,818.300667456829,0.0,Spirit,8,387.94599138966265,medium
+2021-P,849,596.2618269570332,"Pascal, Guin",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,99 kg Berthelot Herve 2020,,293.12186198040786,472.9655992421421,12.24174011143486,Rouge Vif d’Etampes,8,270.4643647077103,medium
+2020-P,1210,225.0270992854838,"Jean Philippe, Marand",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,225.10718122806412,214.5310674419484,0.0,Jack O'Lantern,8,102.07229223589546,light
+2014-P,1630,125.05000265879912,"Boudyo , Fabrice",,Other,France,Le Potager Extraordinaire,,,172.8082390928301,141.2681273730833,0.0,Big Max,8,56.72268120603128,light
+2016-P,921,707.7538467529096,"Pierre Marie, Paquet",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Wolf,8,321.0371448871198,medium
+2016-P,828,769.291172810694,"Laurent, FILLIAUDEAU",,Other,France,Le Potager Extraordinaire,,,300.62184520199236,645.5246872872226,,Wolf,8,348.95047598693077,medium
+2018-P,1320,412.5784438593165,"Jean Pierre, Gauchet",,Other,France,Le Potager Extraordinaire,,,241.80424204227305,333.9698072401068,19.906614148545373,Connecticut Field,8,187.14558213458596,medium
+2021-P,884,490.41785201681125,"Gauchet, Jean Pierre",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,260.2401499497243,474.03767817224457,6.985297827630651,Champion,8,222.45353767482558,medium
+2017-P,561,982.7470920673616,"Bureau, Nicole",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Jack O'Lantern,8,445.7740809617552,medium
+2017-P,1099,508.76624424036135,"Nicole, BUREAU",,Other,France,Le Potager Extraordinaire,859.5 Karkos,,0.0,0.0,0.0,Early Giant,8,230.7763683874279,medium
+2016-P,828,699.2393292302535,"Julien, Bernard",,Other,France,Le Potager Extraordinaire,,,297.3177156403566,591.049080829618,24.92299776548087,Spirit,8,317.174959738843,medium
+2014-P,1338,373.82961522536414,"Herve, Berthelot",,Other,France,Le Potager Extraordinaire,,,255.11706390755543,344.16976002526144,5.9097752390331335,Connecticut Field,8,169.56911346622516,medium
+2018-P,EXH,509.1272927671114,"Meslier, Robert",,Other,France,Le Potager Extraordinaire,,,274.4211232471051,475.9130611306841,6.848380617563043,Howden,8,230.94013999916172,medium
+2018-P,474,1171.9284339059188,"Pierre Marie, Paquet",,Other,France,Le Potager Extraordinaire,,,392.18183458269937,1090.8258060035191,0.0,Casper,8,531.5867376197248,medium
+2015-P,254,1291.9477497395026,"Mehdi, Daho",,Other,France,Le Potager Extraordinaire,1985 Miller,1744.5 Fulk,406.7441605337525,1267.665366742134,0.0,Early Giant,8,586.0274992818383,heavy
+2017-P,561,947.2949626491616,"Daho, Marcelle",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Prizewinner,8,429.6929950576597,medium
+2018-P,1412,299.25471986479585,"Herve, Berthelot",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Wolf,8,135.7419409306714,medium
+2015-P,1772,56.612527979169094,"Nicole, BUREAU",,Other,France,Le Potager Extraordinaire,,,138.99172385739465,72.0763380172795,0.0,Rouge Vif d’Etampes,8,25.679442691351102,light
+2020-P,1340,80.80164026148421,"Gauchet, Jean Pierre",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,144.65199307332472,83.29091896848686,0.0,Rouge Vif d’Etampes,8,36.65162402260924,light
+2015-P,EXH,1291.4649883465,"Derouin, Jean Claude",,Other,France,Le Potager Extraordinaire,2102 Meier,,405.1864065489522,1317.6402351825768,0.0,Autumn Gold,8,585.8085187139724,heavy
+2013-P,573,749.6246662210684,"Pacary, Sylvain",,Other,France,Le Potager Extraordinaire,1676.5 Daletas,Self,293.3420213399081,601.619720516328,24.45816800274973,Dill's Atlantic,8,340.0297485978766,medium
+2017-P,1289,331.7431036631975,"Derouin, Jean Claude",,Other,France,Le Potager Extraordinaire,,,233.8091662392392,287.4259291226066,20.592966851358646,Early Giant,8,150.47867182162636,medium
+2013-P,1485,94.26373000983573,"Derouin, Nicolas",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Big Moose,8,42.75802793246149,light
+2017-P,640,948.0902463513338,"Samuel, Brault",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Spirit,8,430.053735744965,medium
+2021-P,354,1010.7354822012438,"Yoann, BRARD",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2200 geddes,,347.79104566282257,1130.2472281275775,1.0328872966191895,Big Max,8,458.4696147264842,medium
+2016-P,242,1496.8216554152448,"Guin, Pascal",,Other,France,Le Potager Extraordinaire,2096 Meier,Self,435.94982596093536,1522.9411242536823,0.0,Connecticut Field,8,678.958302896355,heavy
+2018-P,835,745.8598116016069,"Guitton, Hugues",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Early Giant,8,338.3220105424889,medium
+2019-P,424,1121.4487512678722,"Bureau, Nicole",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,382.60887645916614,1165.605429965167,0.0,Prizewinner,8,508.68915357510684,medium
+2018-P,835,758.3095627249043,"Guitton, Hugues",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,343.9692176520166,medium
+2017-P,1289,318.82903992763545,"Herve, Berthelot",,Other,France,Le Potager Extraordinaire,,,222.38378204672793,259.40526017865693,18.3854128624328,Big Moose,8,144.62085251117543,medium
+2018-P,896,648.8091267866935,"Laurent, FILLIAUDEAU",,Other,France,Le Potager Extraordinaire,,,282.21869778508125,528.4831148677268,27.70366793005878,Prizewinner,8,294.29981991044417,medium
+2014-P,399,1196.0343655504532,"Brault, Samuel",,Other,France,Le Potager Extraordinaire,1474.9 Mathias,,369.3469100627781,1106.9086295861916,0.9761938223642058,Jack O'Lantern,8,542.5211882136856,medium
+2016-P,1443,251.9494797083676,"brault, Melissa",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Big Moose,8,114.28428399571554,light
+2021-P,901,514.0203746466241,"Philippe, RENAUD",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,,500.1259033398134,0.0,Champion,8,233.15964193970868,medium
+2018-P,896,688.4470523918296,"Daho, Mehdi",,Other,France,Le Potager Extraordinaire,,,267.0234863962324,564.1772843952222,27.57580087890132,Jack O'Lantern,8,312.2795829649339,medium
+2020-P,869,573.1411529311458,"Guitton, Rene",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,311.07541156186863,696.4666959329542,0.0,Big Moose,8,259.97682696956775,medium
+2020-P,709,770.9208715244913,"Guin, Pascal",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,330.410827814213,724.2582832495953,0.0,Rouge Vif d’Etampes,8,349.68970732350925,medium
+2015-P,1426,330.9888011924729,"Daho, Marcelle",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Cinderella,8,150.1365202209057,medium
+2019-P,654,846.0491485839812,"Guin, Pascal",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,345.7366142768909,997.9857389519768,0.0,Connecticut Field,8,383.76789379769383,medium
+2013-P,482,891.4111841380296,"Filliaudeau, laurent",,Other,France,Le Potager Extraordinaire,1338 Boudyo,,358.26157461031084,1017.7670063517968,0.0,Early Giant,8,404.34411312501027,medium
+2021-P,33,1938.9959214823452,"Jean Philippe, Marand",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2183 Mendi,Sibb,467.3886371514219,1937.3305321354517,0.0,Jack O'Lantern,8,879.5285499843918,heavy
+2018-P,1412,317.10908960039245,"Fourmy, Laurent",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Cinderella,8,143.84068304273802,medium
+2015-P,1418,405.12429231342475,"Pacary, Sylvain",,Other,France,Le Potager Extraordinaire,"1395,5 Luclerc 2015",,272.96340029768356,413.44067770272864,0.0,Wolf,8,183.76437899336946,medium
+2018-P,1040,627.7754812806394,"Julien, Bernard",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,284.758958308898,medium
+2017-P,1272,334.5502878728361,"Derouin, Jean Claude",,Other,France,Le Potager Extraordinaire,,,250.34903957106997,,3.853375741885587,Casper,8,151.75201057911846,medium
+2015-P,254,1347.01841248833,"Renaud, Gabriel",,Other,France,Le Potager Extraordinaire,,1744.5 Fulk,399.7519954704005,1261.2319834019388,0.0,Dill's Atlantic,8,611.0075519047065,heavy
+2016-P,513,1043.0056632926803,"Cardot, Celine",,Other,France,Le Potager Extraordinaire,1625 Gantner,Self,333.6299303972007,828.8963990859896,25.164709346226203,Jack O'Lantern,8,473.10736886955976,medium
+2016-P,1567,125.19944756993816,"Marcelle , Daho",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Big Moose,8,56.79046941772395,light
+2021-P,354,1073.0268619951937,"Filliaudeau, laurent",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2200 geddes,,351.87880757446845,1123.9215712935531,0.9774309937926072,Dill's Atlantic,8,486.72498460101986,medium
+2014-P,EXH,105.39535602062482,"Kerdal, Laurent",,Other,France,Le Potager Extraordinaire,,,175.12635787633906,124.23589599762596,0.0,Autumn Gold,8,47.807333490955415,light
+2021-P,602,847.6077548757808,"Berthelot, Herve",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,Marand 924.8,,324.2440276045178,857.0484572351191,0.0,Autumn Gold,8,384.47487761165416,medium
+2014-P,992,566.8355700478797,"Hugues, Guitton",,Other,France,Le Potager Extraordinaire,1313 Metsa,,287.0160191049775,613.1582799654527,0.0,Autumn Gold,8,257.11661457371827,medium
+2018-P,143,1586.618522594868,"Tom, Brault",,Other,France,Le Potager Extraordinaire,1824 Shenoa,,0.0,0.0,0.0,Spirit,8,719.6901618490322,heavy
+2015-P,1648,184.3168519653401,"Joseph, HUBERT",,Other,France,Le Potager Extraordinaire,,,199.18846127546968,188.34419145004543,0.0,Casper,8,83.60612405147828,light
+2017-P,1157,476.8462188129281,"Guin, Pascal",,Other,France,Le Potager Extraordinaire,,,264.97872821928974,334.08317249516153,25.465921201729486,Atlantic Giant,8,216.2974448535442,medium
+2020-P,501,941.622760528806,"Guin, Pascal",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,343.7628505124922,899.4679801362903,3.9565340142997103,Early Giant,8,427.1200841758664,medium
+2013-P,1386,153.44908191355754,"Brault, Samuel",,Other,France,Le Potager Extraordinaire,Caillard,,185.9631691042195,160.49924601829005,0.0,Spirit,8,69.6045035559897,light
+2021-P,33,2145.7818103691943,"Mehdi, Daho",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2183 Mendi,Sibb,484.6713086967383,2197.5938256989953,0.0,Atlantic Giant,8,973.3266291834666,heavy
+2013-P,573,741.5815732341895,"Derouin, Jean Claude",,Other,France,Le Potager Extraordinaire,1676.5 Daletas,,279.4392784956012,645.3175216685452,23.920586003192753,Big Max,8,336.38140161902834,medium
+2013-P,532,792.130216862032,"Tom, Brault",,Other,France,Le Potager Extraordinaire,,,323.330015554203,745.6953874458818,1.891359860714731,Rouge Vif d’Etampes,8,359.3102663686177,medium
+2015-P,EXH,342.1388830124156,"Guin, Pascal",,Other,France,Le Potager Extraordinaire,,,235.6949142264712,324.10651682937817,9.170465039086144,Autumn Gold,8,155.19419733443172,medium
+2016-P,1175,474.59549635248305,"Jean Philippe, Marand",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Casper,8,215.2765171454863,medium
+2016-P,EXH,546.2880888209287,"Tom, Berthelot",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Dill's Atlantic,8,247.79627708917326,medium
+2017-P,1272,354.3909095643453,"Jean Pierre, Gauchet",,Other,France,Le Potager Extraordinaire,,,246.3307541461038,325.49632308336544,4.021903035791273,Prizewinner,8,160.75171657838703,medium
+2016-P,1085,535.234596463044,"Laidin, Jean Michel",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Big Max,8,242.78241295563677,medium
+2016-P,1220,425.5560747734163,"Pierre Marie, Paquet",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Autumn Gold,8,193.03223551722164,medium
+2017-P,981,593.6921781203345,"Meslier, Robert",,Other,France,Le Potager Extraordinaire,,,294.6250577015742,622.375754349636,0.0,Dill's Atlantic,8,269.29877199538373,medium
+2015-P,EXH,390.74963389232255,"Nicole, BUREAU",,Other,France,Le Potager Extraordinaire,,,258.5160915840258,356.1993227350673,8.47746981528647,Autumn Gold,8,177.24403393355752,medium
+2018-P,850,694.4756810979949,"Guin, Pascal",,Other,France,Le Potager Extraordinaire,,,313.7792902159159,717.9317746243939,1.0244653892212507,Casper,8,315.01416894605046,medium
+2013-P,1485,92.17876415887528,"Aurelien, Fayola",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,,Howden,8,41.81228742246583,light
+2019-P,1131,427.13099266985074,"Renaud, Gabriel",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,119 kg Berthelot 17,,249.95901623939676,,12.653590352605493,Connecticut Field,8,193.74661827504428,medium
+2014-P,1449,304.6253073872073,"Brault, Melisa",,Other,France,Le Potager Extraordinaire,,,232.26530154890253,288.72319800322214,8.136817410024118,Champion,8,138.17803943083723,medium
+2015-P,315,1180.1922296980076,"brault, Melissa",,Other,France,Le Potager Extraordinaire,,,390.5044467609861,1291.430860338323,0.0,Big Moose,8,535.3351953910162,medium
+2014-P,1449,289.2566181520445,"Mehdi, Daho",,Other,France,Le Potager Extraordinaire,,,215.8745151936559,268.37162149912064,8.15197284200935,Prizewinner,8,131.20680199376739,light
+2020-P,1210,218.6053080804543,"Laurent, FILLIAUDEAU",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,198.7128689436671,217.6059917080386,,Casper,8,99.15936774529408,light
+2014-P,1345,413.2651360124547,"Daho, Marcelle",,Other,France,Le Potager Extraordinaire,404 Brault,,252.9711169885522,371.45178181605553,5.049529255713171,Big Max,8,187.45706569524947,medium
+2014-P,1630,141.91419410306574,"Meslier, Robert",,Other,France,Le Potager Extraordinaire,,,186.45617569503528,144.4501348189112,0.0,Prizewinner,8,64.37227844515061,light
+2021-P,564,844.2610116264104,"Mehdi, Daho",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,342.7204804745512,954.8752049200996,0.0,Rouge Vif d’Etampes,8,382.9567948737398,medium
+2018-P,EXH,517.1508730896993,"Pacary, Sylvain",,Other,France,Le Potager Extraordinaire,,,287.5036412635673,486.24575395547186,6.938571950133606,Casper,8,234.57963603348762,medium
+2019-P,561,923.0343669642943,"Herve, Berthelot",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,1694 HOELKE,,346.589827749813,923.1286375097368,3.069803442656059,Howden,8,418.6883888550039,medium
+2017-P,640,927.8994755132312,"Joseph, HUBERT",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Jack O'Lantern,8,420.8952020928017,medium
+2015-P,935,738.5500745990156,"Brault, Samuel",,Other,France,Le Potager Extraordinaire,1231lbs Daho 2012,,311.80800515364274,739.069389109973,0.0,Howden,8,335.0063138381135,medium
+2013-P,914,526.4514726032568,"Chantal, Guin",,Other,France,Le Potager Extraordinaire,1498 Werner,,299.17266983101655,595.7914452345362,0.0,Big Moose,8,238.79838797283728,medium
+2018-P,1320,393.83860511565007,"Tom, Brault",,Other,France,Le Potager Extraordinaire,,,242.59834912632527,334.7818814579069,18.852161268158536,Champion,8,178.64519128045887,medium
+2017-P,EXH,275.41988294951693,"Berthelot, Tom",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Wolf,8,124.93045890590088,light
+2021-P,33,2202.2861560509086,"Nicole, BUREAU",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2183 Mendi,Sibb,486.0863775448367,2162.798226274333,0.0,Spirit,8,998.9570003846922,heavy
+2014-P,1345,403.70651740497107,"Pascal, Denis",,Other,France,Le Potager Extraordinaire,404 Brault,,266.07666199138146,371.1325220386876,5.000122487581603,Rouge Vif d’Etampes,8,183.12127629489487,medium
+2015-P,935,697.4663261864061,"Pineau, Jonathan",,Other,France,Le Potager Extraordinaire,,,315.7723974905775,756.0689770394378,0.0,Dill's Atlantic,8,316.3707255581538,medium
+2019-P,1220,352.23385971206665,"Berthelot, Herve",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,1501 Wagner,,198.58014031116772,206.27686977480892,86.51531172377805,Early Giant,8,159.77327876539343,medium
+2015-P,935,715.9866760770481,"Pierre Marie, Paquet",,Other,France,Le Potager Extraordinaire,1231lbs Daho 2012,,341.86976177932235,755.5712353456229,0.0,Cinderella,8,324.771556268549,medium
+2020-P,869,501.22570870440495,"Brault, Samuel",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,291.13863176462746,671.1991491057224,0.0,Early Giant,8,227.35598146831808,medium
+2018-P,850,745.1161951646769,"Filliaudeau, Laurent",,Other,France,Le Potager Extraordinaire,,,299.74211401491317,736.0109818415116,1.0105714301594175,Big Moose,8,337.98470612669746,medium
+2021-P,1299,102.39876000516186,"Pierre Marie, Paquet",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,171.17932657057074,102.27513249375184,0.0,Prizewinner,8,46.44807753834142,light
+2019-P,1088,475.2249749058225,"Brault, Samuel",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,141 kg Berthelot 18,,280.32113931039174,493.8033242551329,0.0,Early Giant,8,215.56204861728108,medium
+2014-P,220,1301.1967203370746,"Herve, Berthelot",,Other,France,Le Potager Extraordinaire,1649 Lancaster,,372.9874684544402,1261.1143097773845,2.006493774086148,Early Giant,8,590.222832344897,heavy
+2015-P,1418,389.21078878764274,"Herve, Berthelot",,Other,France,Le Potager Extraordinaire,"1395,5 Luclerc 2015",,264.67085164547194,392.9545516435406,0.0,Rouge Vif d’Etampes,8,176.54601379407475,medium
+2014-P,1136,524.3095756136636,"Guitton, Hugues",,Other,France,Le Potager Extraordinaire,1177 Horde,,283.69960881668555,618.4323704653671,0.0,Early Giant,8,237.8268234983578,medium
+2014-P,220,1347.657852202594,"Derouin, Nicolas",,Other,France,Le Potager Extraordinaire,1649 Lancaster,2009 Wallace,402.7860122531227,1368.0589580022386,2.060702839238458,Autumn Gold,8,611.2976017590967,heavy
+2021-P,354,1156.9188405549455,"Pacary, Sylvain",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2200 geddes,,381.2672046564392,1091.8658001076658,1.0212339779265334,Big Moose,8,524.7783860757233,medium
+2014-P,399,1205.313551786331,"Marcelle , Daho",,Other,France,Le Potager Extraordinaire,1474.9 Mathias,,373.3162635595559,1112.8107089524622,1.009709856928406,Connecticut Field,8,546.7302270902796,medium
+2017-P,1070,497.6863841343029,"Tom, Brault",,Other,France,Le Potager Extraordinaire,691 Ludwig,,272.41487327015903,514.0770376898997,1.9795781182324617,Blue Hubbard,8,225.7505438433198,medium
+2015-P,1418,374.9633799816815,"Henri, Denis",,Other,France,Le Potager Extraordinaire,"1395,5 Luclerc 2015",,253.06854572786827,,0.0,Wolf,8,170.08338915969074,medium
+2016-P,513,991.8707891383532,"Julien, Bernard",,Other,France,Le Potager Extraordinaire,1625 Gantner,Self,327.4687028115923,786.1087377319773,,Dill's Atlantic,8,449.912589953157,medium
+2017-P,1157,440.36936470119304,"Gauchet, Jean Pierre",,Other,France,Le Potager Extraordinaire,,,243.41033268489855,322.69342948476805,25.724258633190026,Wolf,8,199.75154382846117,medium
+2020-P,556,926.639102566236,"Samuel, Brault",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,336.4724175817598,920.8092014126072,1.004960095043719,Cinderella,8,420.32349692404466,medium
+2016-P,1175,476.6836419881483,"Tom, Brault",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Jack O'Lantern,8,216.22370000582407,medium
+2016-P,EXH,107.27911757162272,"Nicole, BUREAU",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,48.661807730488064,light
+2020-P,1340,79.24416305323436,"Mehdi, Daho",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,146.80168343797476,80.99595498508829,0.0,Cinderella,8,35.945152360947105,light
+2016-P,828,801.4991570056857,"Guin, Pascal",,Other,France,Le Potager Extraordinaire,,,289.49858916995026,622.3065131055725,24.80617039380057,Spirit,8,363.560017617779,medium
+2016-P,1567,134.29478594919345,"Boudyo , Fabrice",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Atlantic Giant,8,60.91611490655415,light
+2021-P,1299,98.15415403748368,"Pierre Marie, Paquet",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,159.05858337282334,115.25484621404073,0.0,Casper,8,44.522724271402595,light
+2015-P,315,1126.352254397263,"Fourmy, Laurent",,Other,France,Le Potager Extraordinaire,,,382.6924980966782,1225.356307855032,0.0,Howden,8,510.91338259459854,medium
+2019-P,561,946.194003573569,"Brault, Samuel",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,1694 HOELKE,,349.35430751803017,928.9167543108838,2.9294416508875916,Wolf,8,429.1936000209709,medium
+2021-P,849,513.7733200897707,"Nicole, BUREAU",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,99 kg Berthelot Herve 2020,,273.99515220652665,478.59156736298695,11.6733793676212,Wolf,8,233.04757799271997,medium
+2013-P,1303,248.14163153001897,"Renaud, Gabriel",,Other,France,Le Potager Extraordinaire,,,254.79626856579583,333.85286876129385,0.0,Wolf,8,112.5570440620166,light
+2017-P,1386,276.42837914194007,"Pascal, Guin",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Rouge Vif d’Etampes,8,125.38791277878401,light
+2017-P,1058,501.242641942599,"Poilane, Romaric",,Other,France,Le Potager Extraordinaire,2102 Meier,,275.6810512472517,529.662376710683,0.0,Cinderella,8,227.3636623851629,medium
+2013-P,760,600.3310576934805,"Filliaudeau, Laurent",,Other,France,Le Potager Extraordinaire,,,301.2587911017545,702.291268095144,0.0,Howden,8,272.31016776976276,medium
+2019-P,654,866.2157181924621,"Derouin, Jean Claude",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,354.67029665578764,936.9681232123394,0.0,Atlantic Giant,8,392.9154497721008,medium
+2013-P,573,826.3060325412105,"Chantal, Guin",,Other,France,Le Potager Extraordinaire,1676.5 Daletas,Self,319.31660200725673,657.3899148169558,23.149154615470316,Spirit,8,374.8124163606931,medium
+2014-P,1418,321.27405784117263,"Denis, Pascal",,Other,France,Le Potager Extraordinaire,,,240.6713798192323,305.41024656733333,8.884589712866521,Atlantic Giant,8,145.7299126367559,medium
+2013-P,479,888.4600082690031,"Tom, Brault",,Other,France,Le Potager Extraordinaire,1694 Meier,,363.2016168732651,909.117091545845,0.0,Howden,8,403.0054597508198,medium
+2019-P,1131,380.8600733165382,"Guin, Pascal",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,119 kg Berthelot 17,,240.31771279633728,336.61124395163387,13.026725768702487,Prizewinner,8,172.75812925638172,medium
+2015-P,EXH,1470.4912316423615,"Pascal, Guin",,Other,France,Le Potager Extraordinaire,1744.5 Fulk,Self,428.93418418518246,1502.41709656444,0.0,Big Moose,8,667.0148226729752,heavy
+2021-P,33,1900.963424829841,"Marrand, Jean Philippe",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2183 Mendi,Sibb,468.63300545346897,2011.6798944513448,0.0,Rouge Vif d’Etampes,8,862.2770095028159,heavy
+2017-P,EXH,318.26116728396266,"Daho, Mehdi",,Other,France,Le Potager Extraordinaire,,,,286.8218446695676,2.996284576692247,Spirit,8,144.36326548000545,medium
+2015-P,134,1333.4686783646928,"Pierre Marie, Paquet",,Other,France,Le Potager Extraordinaire,2032 Mathison,1744.5 Fulk,389.9871623079375,1443.8981047297184,0.0,Champion,8,604.8613925062247,heavy
+2016-P,1220,463.1444186789834,"Marcelle , Daho",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Autumn Gold,8,210.08230831278686,medium
+2014-P,1661,116.13581688876256,"Berthelot, Tom",,Other,France,Le Potager Extraordinaire,,,167.8917615135252,116.3504449824308,0.0,Big Max,8,52.6792065407427,light
+2020-P,94,1697.018425203991,"Mehdi, Daho",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,1911 Urena,1938 Urena,432.39314377177743,1461.8266538563146,9.300154602372746,Wolf,8,769.7675576725303,heavy
+2016-P,921,700.6779220854573,"Pierre Marie, Paquet",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Early Giant,8,317.82750545796347,medium
+2019-P,EXH,137.51814827921658,"Hugues, Guitton",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,202.5747186631195,225.94635687292313,0.0,Casper,8,62.37823205945264,light
+2015-P,254,1411.6878013260043,"Tom, Brault",,Other,France,Le Potager Extraordinaire,1985 Miller,1744.5 Fulk,403.7003537690254,1446.347246200629,0.0,Casper,8,640.3415866814755,heavy
+2019-P,1193,413.65514158604094,"Guin , Emilie",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,1533 Henkin 18,,,399.7323244018542,0.0,Wolf,8,187.63397222342817,medium
+2018-P,474,1112.2642092848298,"Philippe, RENAUD",,Other,France,Le Potager Extraordinaire,,,384.460269935823,1182.3340735291067,0.0,Casper,8,504.5230453315988,medium
+2018-P,896,712.8779710349679,"Daho, Mehdi",,Other,France,Le Potager Extraordinaire,,,292.36169515565734,538.9673010215978,26.60973747605203,Rouge Vif d’Etampes,8,323.36144766146145,medium
+2014-P,992,632.8502320301019,"Daho, Mehdi",,Other,France,Le Potager Extraordinaire,1313 Metsa,,307.2062569350009,632.9040878928887,0.0,Big Moose,8,287.0608652488542,medium
+2015-P,683,1009.1352492812316,"Brault, Samuel",,Other,France,Le Potager Extraordinaire,1271 Werner 2013,,373.42378973103234,1009.397047137293,0.0,Autumn Gold,8,457.7437490739667,medium
+2015-P,1648,171.77731081184055,"Tom, Brault",,Other,France,Le Potager Extraordinaire,,,194.49169389190735,168.13397090042318,0.0,Atlantic Giant,8,77.91818818425088,light
+2013-P,914,516.4056417101342,"Renaud, Philippe",,Other,France,Le Potager Extraordinaire,1498 Werner,,303.91987106105756,556.0165878942933,0.0,Big Moose,8,234.24159907971688,medium
+2014-P,1333,387.12426684445063,"Guin, Pascal",,Other,France,Le Potager Extraordinaire,,,286.15867520580116,461.2042199872443,0.0,Cinderella,8,175.5995674406428,medium
+2019-P,1447,204.7558213353882,"Berthelot, Herve",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,,,214.57072055006665,235.18401893148885,0.0,Blue Hubbard,8,92.87724055773208,light
+2021-P,849,655.5449191154106,"Jean Pierre, Gauchet",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,99 kg Berthelot Herve 2020,,291.8413388776535,530.2902672666442,12.251094948069452,Early Giant,8,297.35517531075027,medium
+2016-P,1220,411.5046199879119,"Mehdi, Daho",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Casper,8,186.65849562651684,medium
+2015-P,1325,436.30164099773657,"Nicole, BUREAU",,Other,France,Le Potager Extraordinaire,"1425,3lbs Daho 2013",,299.99568051718285,567.2621689943905,0.0,Autumn Gold,8,197.9064243565733,medium
+2021-P,33,2001.9630394767005,"Nicole, BUREAU",,Other,France,Concours National du plus Gros Potiron et des fruits et legumes Geant,2183 Mendi,,469.50457565893174,1843.0435723096712,0.0,Rouge Vif d’Etampes,8,908.0904347066313,heavy
+2016-P,921,738.723712209969,"Mehdi, Daho",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Casper,8,335.08507585844194,medium
+2018-P,1548,191.15032234026984,"Kerdal , Laurent",,Other,France,Le Potager Extraordinaire,1567.5 Lyons 2016,,213.77666588497624,208.97030535674733,0.0,Big Max,8,86.7057862135464,light
+2013-P,1303,206.55717331973332,"Brault, Samuel",,Other,France,Le Potager Extraordinaire,,,235.70350142850003,282.0896364172535,0.0,Prizewinner,8,93.69433381783104,light
+2015-P,1325,452.7290671209779,"Tom, Berthelot",,Other,France,Le Potager Extraordinaire,"1425,3lbs Daho 2013",,297.2543996419718,574.9570331967172,0.0,Dill's Atlantic,8,205.35790484607557,medium
+2016-P,1443,244.5110860398385,"Poilane, Romaric",,Other,France,Le Potager Extraordinaire,,,0.0,0.0,0.0,Blue Hubbard,8,110.91022862767073,light
