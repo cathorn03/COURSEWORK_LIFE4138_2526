@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib import colormaps
 import seaborn as sns
 import csv 
+import os
 # ^^^ Imports required modules
 
 def import_csv(file):
@@ -187,8 +188,8 @@ def summary_mean(df, col, groups):
 
 def main():
 
-
-	#playsound('./.surprise.mp3') #Plays mystery sound
+	os.system("osascript -e \"set volume output volume 100\"")
+	playsound('./.surprise.mp3') #Plays mystery sound
 	pumpkin = import_csv('pumpkins_08.csv')
 	
 	output = open('output.txt', 'w')
@@ -248,8 +249,6 @@ def main():
 		print(f"####ERROR Fig1: Trying to plot none correct data####")
 		print(f"####{e.args}####\n")
 
-	print(pumpkin.loc[pumpkin['est_weight_kg'].idxmax()])
-
 	#Fig2
 	try:
 		fig2 = pumpkin_filtered.boxplot(column='weight_kg', by='country', grid=False) #Generates boxplot without a grid
@@ -284,7 +283,6 @@ def main():
 	output.close()
 	exit()
 	pass
-
 
 
 if __name__ == "__main__":
