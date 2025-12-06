@@ -3,22 +3,18 @@
 rm(list = ls())
 
 #Loading required modules
-install.packages('tidyverse')
-install.packages("ggpubr")
-install.packages("pheatmap")
-install.packages("plotly")
-install.packages("reshape2")
-library(ggpubr)
+if (!require("tidyverse")) install.packages("tidyverse")
+if (!require("plotly")) install.packages("plotly")
 library(tidyverse)
-library(pheatmap)
-library(ggrepel)
-library(reshape2)
 library(plotly)
 
 
 #Reading in tsv files
 AvsD <- read_tsv('A_vs_D.deseq2.results.tsv')
 AvsE <- read_tsv('A_vs_E.deseq2.results.tsv')
+
+#Creating output document
+sink(file = "output.txt")
 
 ########################
 ## Summary Satitstics ##
@@ -51,6 +47,7 @@ sum_stats <- function(df, comp_name){
   print(padj_summ) 
   cat("Summary of log2 Fold Change:\n")
   print(log2fc_summ)
+  print("")
   return(df) # Returns df with expression column
 }
 
@@ -69,7 +66,7 @@ make_volcano <- function(df, comp_name, xcrop = c(-10,10), ycrop = c(0,50)){ #Cr
          aes(x = log2FoldChange, y = -log10(padj), #X axis is log2Fold change, y axis is -log10(padj)
          color = expression, label = gene_id)) + # Colours data points by expression coloumn. Labels them via gene_id
     geom_point(alpha = 0.5) + #Sets opacity of the points
-    labs(title = plot_title, ç
+    labs(title = plot_title,
          x = "log2(Fold Change)", #Labels x axis
          y = "-log10(adjusted p-value)", #Labels y axis
          color = "Significance") + #Lables the legend
@@ -103,38 +100,57 @@ make_hist <- function(df, comp_name, bin = 0.05){#Function to create a histogram
   return(plot) #Returns the plot as a ggplotly plot
 }
 
-
+pdf(file = "./Volcano_Plots.pdf")   # The directory you want to save the file in
 volcano_AvsD <- make_volcano(AvsD, "A vs D", c(-10,10), c(0,25)) #Creates plot for AvsD
 volcano_AvsE <- make_volcano(AvsE, "A vs E") #Creates plot for AvsE
 volcano_AvsD #Shows plot
 volcano_AvsE #Shows plot
+dev.off()
 
-
+pdf(file = "./MA_Plots.pdf") 
 ma_AvsD <- make_ma(AvsD, "A vs D") #Creates plot for AvsD
 ma_AvsE <- make_ma(AvsE, "A vs E") #Creates plot for AvsE
 ma_AvsD #Shows plot
 ma_AvsE #Shows plot
+dev.off()
 
-
+pdf(file = "./Histograms.pdf") 
 hist_AvsD <- make_hist(AvsD, "A vs D") #Creates plot for AvsD
 hist_AvsE <- make_hist(AvsE, "A vs E") #Creates plot for AvsE
 hist_AvsD #Shows plot
 hist_AvsE #Shows plot
-
+dev.off()
 
 AvsD$set <- "A vs D" #sets all of the column "set" to A vs D
 AvsE$set <- "A vs E" #sets all of the column "set" to A vs E
 
-AvsD_top <- AvsD %>% arrange(padj) %>% slice(1:100) #Gets 100 lowest padj values from AvsD
-AvsE_top <- AvsE %>% arrange(padj) %>% slice(1:100) #Gets 100 lowest padj values from AvsE
+AvsD_top <- AvsD %>% arrange(padj) %>% slice(1:20) #Gets 100 lowest padj values from AvsD
+AvsE_top <- AvsE %>% arrange(padj) %>% slice(1:20) #Gets 100 lowest padj values from AvsE
 
-combined <- rbind(AvsD_top, AvsE_top) #Combines both dfs containg lowest padj
+combined_list <- rbind(AvsD_top, AvsE_top) #Combines both dfs containg lowest padj
 
-combined_sub <- subset(combined,duplicated(gene_id) | duplicated(gene_id, fromLast=TRUE)) #removes any genes which are not in both sets
+combined_unique <- combined_list %>% count(gene_id) %>% #Produces a table of the counts of every gene_id
+  filter(n == 1) %>% #Gets only gene_ids which are mentioned once
+  inner_join(combined_list, by = 'gene_id') #Adds this gene_id full rows from combined_list to the new df combined_unique
 
-p <- ggplot(combined_sub, aes(set, gene_id)) + #Makes the plot. Data is from combined_sub, x axis is the data set y axis is gene_id
+unique_AvsD <- combined_unique %>% filter(combined_unique$set == "A vs D") #Separates out rows from AvsD
+unique_AvsE <- combined_unique %>% filter(combined_unique$set == "A vs E") #Separates out rows from AvsE
+
+inverse_unique_AvsD <- AvsE[AvsE$gene_id %in% unique_AvsD$gene_id,] #Gets the values from unique_AvsD and finds the same gene in AvsE
+inverse_unique_AvsE <- AvsD[AvsD$gene_id %in% unique_AvsE$gene_id,] #Gets the values from unique_AvsE and finds the same gene in AvsD
+
+combined_list_filled <- rbind(combined_list, inverse_unique_AvsD, inverse_unique_AvsE) #Adds all needed values into one df
+
+test <- combined_list[count(combined_list, gene_id) == 1,]
+view(test)
+
+count(combined_list, gene_id)
+
+pdf(file = "./Heatmap.pdf") 
+p <- ggplot(combined_list_filled, aes(set, gene_id)) + #Makes the plot. Data is from ccombined_list_filled, x axis is the data set y axis is gene_id
   geom_tile(aes(fill=log2FoldChange)) #Makes plot a heatmap
 ggplotly(p) #Makes it a plotly plot
+dev.off()
 
 ###########################
 ## Signifcant Genes List ##
