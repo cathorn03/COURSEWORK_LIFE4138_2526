@@ -1,0 +1,21 @@
+###### Expression changes in AvsD ######
+No. of upregulated genes: 365 
+No. of downregulated genes: 651 
+Summary of adjusted p-values:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+0.000000 0.006655 0.149363 0.294639 0.553675 1.000000      303 
+Summary of log2 Fold Change:
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-25.328550  -0.474189  -0.001087  -0.106928   0.416604  22.002860 
+[1] ""
+###### Expression changes in AvsE ######
+No. of upregulated genes: 560 
+No. of downregulated genes: 916 
+Summary of adjusted p-values:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+0.000000 0.001145 0.082829 0.259472 0.488977 1.000000      303 
+Summary of log2 Fold Change:
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+-24.88290  -0.59984  -0.02499  -0.13093   0.49147  22.73216 
+[1] ""
+wrote 40.00B in  0s, 5.79MB/swrote 1.00TB in  0s, 61.09TB/s                                                                                                                                  wrote 39.00B in  0s, 18.18MB/swrote 1.00TB in  0s, 54.53TB/s                                                                                                                                  

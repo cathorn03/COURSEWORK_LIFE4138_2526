@@ -1,19 +1,9 @@
-# LIFE4138 Lecture Materials
+# LIFE4138 COURSEWORK - CALEB THORNBER
 
-This github repository is to provide teaching materials for LIFE4138.
+Within this repository is the completed coursework for the LIFE4138 module. It contains 3 directories:
 
-To access the materials and work through them please:
+* Notebooks - Contains the completed R and python jupyter notebooks
+* Pumpkins_Challenge - Contains the completed pumpkins coding challenge (completed in python)
+* Genetics_Challenge - Contains the completed genetics coding challenge (completed in r)
 
-```console
-git clone https://www.github.com/BioinformaticsMSc/LIFE4138_2526
-cd LIFE4138
-conda env create -f lectures.yml
-conda activate lectures
-```
-
-Assuming this completes successfully then from the ```LIFE4138``` folder:
-
-```console
-jupyter lab
-```
-
+In each directory there is the script for each challenge titled `script.py` or `script.r`. Both contain all the outputs from the scripts including the graphs as `.png` files and all text output in a file named `output.txt`. Along side these is a `report.qmd` file which contains the writeup answering the questions set out by the coursework.

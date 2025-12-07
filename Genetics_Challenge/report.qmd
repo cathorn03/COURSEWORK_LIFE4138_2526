@@ -1,0 +1,386 @@
+---
+title: "Genetics Challenge Report"
+author: "Caleb Thornber"
+format: html
+editor: source
+toc: true
+---
+
+## Packages
+
+For the project 2 packages were installed and libraried
+
+-   `tidyverse`
+-   `plotly`
+
+These were loaded in as below.
+
+```{r results='hide'}
+if (!require("tidyverse")) install.packages("tidyverse")
+if (!require("plotly")) install.packages("plotly")
+if (!require("ggpubr")) install.packages("ggpubr")
+library(tidyverse)
+library(plotly)
+library(ggpubr)
+```
+
+## Aditional Code
+
+The .tsv files were read using `read_tsv`. They were assigned to the objects `AvsD` and `AvsE` as a data frame.
+
+```{r results='hide'}
+AvsD <- read_tsv('A_vs_D.deseq2.results.tsv')
+AvsE <- read_tsv('A_vs_E.deseq2.results.tsv')
+```
+
+An out put file named `output.txt` is created for terminal outputs to be written to.
+
+```{r results='hide'}
+#| eval: false
+sink(file = "output.txt")
+```
+
+## Question 1 - Summary Statistics
+```{r}
+padj_threshold <- 0.05 #Sets threshold for padj
+log2fc_threshold <- 1.0 #Sets threshold for log2FC
+
+sum_stats <- function(df, summ_name){
+  
+  df$expression <- ifelse(is.na(df$padj) == TRUE, #Checks for NA values 
+                          "MISSING VALUE(s)", #Assingns gives this to rows with NA padj
+                          ifelse((df$padj < padj_threshold & df$log2FoldChange > log2fc_threshold), #Checks for upregulated
+                                 "Upregulated", #Gives this
+                                 ifelse((df$padj < padj_threshold & df$log2FoldChange < -log2fc_threshold), #Checks for downregulated
+                                        "Downregulated", #Gives this
+                                        "Not significant"))) #Everything else get this
+                          
+  upregulated <- nrow(df[df$expression == "Upregulated", ]) #Counts rows that are upregulated
+  downregulated <- nrow(df[df$expression == "Downregulated", ]) #Counts rows that are downregulated 
+  
+  cat("###### Expression changes in", summ_name, "######\n") #Prints name of data set
+  cat("No. of upregulated genes:", upregulated, "\n") #prints upregulated
+  cat("No. of downregulated genes:", downregulated, "\n") #prints downregulated
+  
+  padj_summ <- summary(df$padj) #Summarise padj
+  log2fc_summ <- summary(df$log2FoldChange) #summarises log 2 fold change
+  
+  cat("Summary of adjusted p-values:\n")
+  print(padj_summ) 
+  cat("Summary of log2 Fold Change:\n")
+  print(log2fc_summ)
+  return(df) # Returns df with expression column
+}
+```
+
+First the thresholds for adjusted p-values (`padj`) and log2 fold change (`log2FoldChange`) were set to 0.05 and 1 respectively. These were used to determine which genes were upregulated and which were downregulated. These were assigned as objects to allow easier adjustment to the script if different thresholds were wanted to be used.
+
+A function, `sum_stats()` was created which produces the summary statistics for a provided dataset. The data sets must all use the same formatting for their headings. It requires two inputs:
+
+-   `df` - The data frame you want to analyse
+-   `comp_name` - A string of what you want the summary to be called
+
+It first creates a new column, `expression` in the data frame. An `if` statement first identifies any `NA` values in padj and sets `expression` to "MISSING VALUE(s) for these genes. "Upregulated" is assigned to any gene where `padj` is lower than `padj_threshold` and `log2FoldChange` is larger than `log2fc_threshold`. "Down regulated" is assigned to, again, any gene where `padj` is lower than `padj_threshold` , but where `log2FoldChange` is less than the negative value of `log2fc_threshold`. All other genes were assigned "Not siginificant".
+
+The object `upregulated` stores the number of rows where the column `expression` is "Upregulated". It counts this utilising `nrow()`. `downregulated` is similar but counts rows where \`expression is "Downregulated".
+
+The function will then begin printing the summary statistics. It firsts prints the name of the data frame, which is provided to the function, and then prints both `upregulated` and `downregulated`.
+
+Summaries of both adjusted p-values and log 2 fold change are created using `summary()`. They are each assigned to `padj_summ` and `log2fc_summ`. These are then printed.
+
+In the script, `sum_stats()` was ran as below.
+
+```{r}
+AvsD <- sum_stats(AvsD, "AvsD") #Runs sum_stast() and adds expression column to AvsD
+AvsE <- sum_stats(AvsE, "AvsE") #Runs sum_stats() and adds expression column to AvsE
+```
+
+## Question 2 - Plots
+
+#### Volcano Plot
+```{r}
+make_volcano <- function(df, comp_name, xcrop = c(-10,10), ycrop = c(0,50)){ #Creates a function to make a volcano
+  
+  plot_title <- paste("Volcano plot of", comp_name) #Creates object with what the plot title is
+  
+  plot <- ggplot(data = subset(df,!is.na(padj)), #Creates the plot. Uses data with non na padj values
+         aes(x = log2FoldChange, y = -log10(padj), #X axis is log2Fold change, y axis is -log10(padj)
+         color = expression, label = gene_id)) + # Colours data points by expression coloumn. Labels them via gene_id
+    geom_point(alpha = 0.5) + #Sets opacity of the points
+    labs(title = plot_title,
+         x = "log2(Fold Change)", #Labels x axis
+         y = "-log10(adjusted p-value)", #Labels y axis
+         color = "Significance") + #Lables the legend
+    coord_cartesian(xlim = xcrop, ylim= ycrop) + #Crops axis based on provided parameters
+    scale_color_manual(values = c("blue", "azure4","red")) #Sets colour of the points
+  
+  return(ggplotly(plot)) #Returns the plot as a ggplotly plot
+}
+```
+
+A function, `make_volcano()` was created to minimise the number of lines of code as it was needed to be repeated for both data sets. It takes four inputs:
+
+-   `df` - The data frame you want to use for the plot
+-   `comp_name` - The name of the data set you provide (used in the plot title).
+-   `xcrop` - Values you want to crop the x axis too
+-   `ycrop` - Values you want to crop the y axis too
+
+The function first creates the object `plot_title`. This is a string containing the title of the plot. It is assigned as an object to keep the code for the plot tidier.
+
+The plot is created using `ggplot` and assiged to the object `plot`. The data is taken from `df`, except `subset()` is used in order to remove rows with NA `padj` values. `aes()` sets the data for the x axis to that in `log2FoldChange` and y axis data to the negative log10 of `padj`. `aes()` also sets the colour of the points to be based on `expression` and the labels of any points to be based on `gene_id`.
+
+`geom_point()` sets the opacity of the points to 50%. `labs()` assigns the relvant labels, to the axis, title, and legend. The title is set using the `plot_title` object. `coord_cartesian()` is used to crop the axis, and `scale_colour_manual` sets the colours of the points.
+
+`plot` is then returned out of the function as a `plotly` plot.
+
+Both plots are saved as a `.png`.
+
+`make_volcano()` was used as below to created the plots in the script.
+
+```{r}
+#| eval: false
+volcano_AvsD <- make_volcano(AvsD, "A vs D", c(-10,10), c(0,25)) #Creates plot for AvsD
+volcano_AvsE <- make_volcano(AvsE, "A vs E") #Creates plot for AvsE
+volcano_AvsD #Shows plot
+volcano_AvsE #Shows plot
+```
+```{r, echo=FALSE}
+#| fig-cap: "**Figure 1**: A volcano plot of genes when exposed to condition D, compared to condition A"
+volcano_AvsD <- make_volcano(AvsD, "A vs D") #Creates plot for AvsD
+volcano_AvsD #Shows plot
+```
+```{r, echo=FALSE}
+#| fig-cap: "**Figure 2**: A volcano plot of genes when exposed to condition E, compared to condition A"
+volcano_AvsE <- make_volcano(AvsE, "A vs E") #Creates plot for AvsE
+volcano_AvsE
+```
+
+Both plots reflect that in both conditions D, and E more genes become downregulated that compared to upregulated. Both conditions also seem to show a greater magnitude of down regulation that upregulation, as the downregualted genes are more spread out along the x axis.
+
+#### MA plots
+```{r}
+make_ma <- function(df, comp_name){ #Function to create an MA plot
+  
+  plot_title <- paste("MA plot of", comp_name) #Creates object with what the plot title is
+  
+  plot <- ggmaplot(data = df, size = 1.5) + #Makes the plot using data from provided data set
+    labs(title = plot_title, #Labels title
+         x = "log2(Mean Expression)", #Labels x axis
+         y = "log2(Fold Change)", #Labels y axis
+         color = "Significance") #Labels legend
+  
+  return(ggplotly(plot)) #Returns the plot as a ggplotly plot
+}
+```
+
+As with the volcano plot, the function `make_ma()` was created to plot both data sets. This takes two inputs.
+
+-   `df` - The data frame you want to use for the plot
+-   `comp_name` - The name of the data set you provide (used in the plot title).
+
+The plot was created with `ggmaplot()` and assigned to the object plot. Data was provided to `ggmaplot()` from `df`. Labs was then used to assign appropriated titles. As before the title was assigned using an object named `plot_title` which utilised `comp_name`.
+
+`make_ma()` was used, and the plots were called as below.
+
+```{r}
+#| eval: false
+ma_AvsD <- make_ma(AvsD, "A vs D") #Creates plot for AvsD
+ma_AvsE <- make_ma(AvsE, "A vs E") #Creates plot for AvsE
+ma_AvsD #Shows plot
+ma_AvsE #Shows plot
+```
+```{r, echo=FALSE}
+#| fig-cap: "**Figure 3**: An MA plot of genes when exposed to condition D, compared to condition A"
+ma_AvsD <- make_ma(AvsD, "A vs D") #Creates plot for AvsD
+ma_AvsD #Shows plot
+```
+```{r, echo=FALSE}
+#| fig-cap: "**Figure 4**: An MA plot of genes when exposed to condition E, compared to condition A"
+ma_AvsE <- make_ma(AvsE, "A vs E") #Creates plot for AvsE
+ma_AvsE
+```
+
+#### Say something about the MA plots
+
+#### Histograms
+```{r}
+make_hist <- function(df, comp_name, bin = 0.05){#Function to create a histogram
+  
+  plot_title <- paste("Histogram of", comp_name, "adjusted p-values") #Creates object with what the plot title is
+  
+  plot <- ggplot(aes(padj), data = df) + #Makes the plot with data from provided data set, builds it on padj
+    geom_histogram(binwidth = bin,  #Creates histogram. Bin width is specified in the function 
+                   colour = "black", fill = "azure4") + #Sets colour of the histogram
+    labs(title = plot_title,
+         x = "Adjusted p-value",
+         y = "Frequency") #Gives the plot a title
+  
+  return(plot) #Returns the plot as a ggplotly plot
+}
+```
+
+As with the rest of the plots, a function was made to handle the plotting: `make_hist()`. This had three inputs:
+
+-   `df` - The data frame you want to use for the plot
+-   `comp_name` - The name of the data set you provide (used in the plot title).
+-   `bin` - Sets the bin size of the histogram. default = 0.05 (5%)
+
+The title of the plotn is assigened to the object `plot_title` using `comp_name`.
+
+The plot uses `ggplot` and with `aes`, `padj` is select as the values to be used. The data is provided via `df`.
+
+`geom_histogram` then assigns the data to a histogram plot with a bindwidth equal to `bin`. `colour` was then used to adjust the colour of the histogram to improve readability. `labs` is then used to assign the title from the object `plot_title`. `scale_fill_manual
+
+The histograms were produced using the following code:
+
+```{r}
+#| eval: false
+hist_AvsD <- make_hist(AvsD, "A vs D") #Creates plot for AvsD
+hist_AvsE <- make_hist(AvsE, "A vs E") #Creates plot for AvsE
+hist_AvsD #Shows plot
+hist_AvsE #Shows plot
+```
+```{r, echo=FALSE}
+#| fig-cap: "**Figure 5**: A histogram of adjusted p-values when exposed to condition D, compared to condition A"
+hist_AvsD <- make_hist(AvsD, "A vs D") #Creates plot for AvsD
+hist_AvsD #Shows plot
+```
+```{r, echo=FALSE}
+#| fig-cap: "**Figure 6**: A histogram of adjusted p-values when exposed to condition E, compared to condition A"
+hist_AvsE <- make_hist(AvsE, "A vs E") #Creates plot for AvsD
+hist_AvsE #Shows plot
+```
+
+Both histograms show that each data set AvsD has aproximatek
+
+#### Heatmap
+```{r}
+#| eval: false
+AvsD$set <- "A vs D" #sets all of the column "set" to A vs D
+AvsE$set <- "A vs E" #sets all of the column "set" to A vs E
+
+AvsD_top <- AvsD %>% filter(expression == "Upregulated" || expression == "Downregulated") %>% #Selects only differentially expressed genes
+  arrange(padj) %>% #Sorts from lowest to highest padj
+  slice(1:20) #Gets the first 20 values
+AvsE_top <- AvsE %>% filter(expression == "Upregulated" || expression == "Downregulated") %>% #Selects only differentially expressed genes
+  arrange(padj) %>% #Sorts from lowest to highest padj
+  slice(1:20) #Gets the first 20 values
+
+combined_list <- rbind(AvsD_top, AvsE_top) #Combines both dfs containg lowest padj
+
+combined_unique <- combined_list %>% count(gene_id) %>% #Produces a table of the counts of every gene_id
+  filter(n == 1) %>% #Gets only gene_ids which are mentioned once
+  inner_join(combined_list, by = 'gene_id') #Adds this gene_id full rows from combined_list to the new df combined_unique
+
+unique_AvsD <- combined_unique %>% filter(combined_unique$set == "A vs D") #Separates out rows from AvsD
+unique_AvsE <- combined_unique %>% filter(combined_unique$set == "A vs E") #Separates out rows from AvsE
+
+inverse_unique_AvsD <- AvsE[AvsE$gene_id %in% unique_AvsD$gene_id,] #Gets the values from unique_AvsD and finds the same gene in AvsE
+inverse_unique_AvsE <- AvsD[AvsD$gene_id %in% unique_AvsE$gene_id,] #Gets the values from unique_AvsE and finds the same gene in AvsD
+
+combined_list_filled <- rbind(combined_list, inverse_unique_AvsD, inverse_unique_AvsE) #Adds all needed values into one df
+
+heatmap_plot <- ggplot(combined_list_filled, aes(set, gene_id)) + #Makes the plot. Data is from ccombined_list_filled, x axis is the data set y axis is gene_id
+  geom_tile(aes(fill=log2FoldChange)) +  #Makes plot a heatmap and fills cells acording to their log2FoldChange Value
+  scale_fill_distiller(palette = "RdBu", direction = -1) + #Sets the colour palette to be red and blue. direction = -1 inverts thwe direction so blue is under expressed
+  ggtitle(str_wrap("A heatmap of the log 2 fold change of the most significant genes in AvsD and AvsE", width = 45))+ #Adds the title and makes the text wrap every 45 characters
+  labs(x = "Comparison Data Set", #Labels x-axis
+       y = "Gene ID", #Labels y-axis
+       fill = "log2(Fold Change)") #Labels legend
+
+ggplotly(heatmap_plot) #Makes it a plotly plot
+```
+
+Unlike the previous plots, a level of data manipulation was needed to be able to plot only the top genes from each data set.
+
+First a new column was added to each data frame, named `set` with an identifier to which data set they belong to. This would be either "A vs D", or "A vs E". The data sets are then both filtered to only contain differentially expressed genes, by using `filter` on the `expression` column made earlier. Following that the top 20 genes ranked from lowest to highest by adjusted p-values. This is done for each data set and creates 2 new data frame objects. Conataining just the top 20. As the top 20 in each data set may, may not be the same they were then combined into `combined_list`. A new data frame was created by filtering for each `gene_id` which only appears once. These where then seperated into two data sets by filtering via the `set` column.
+
+The `gene_id` values from the two seperate data frames are then searched for in the opposite complete data set. E.g. `gene_id` values in `unique_AvsE` are searched for in `AvsD`. The values from this are saved as `invers_unique_AvsD` and `invers_unique_AvsE`.
+
+This processing was done to prevent there from being gaps within the heatmap. The top 20 genes acording to adjusted p-values were not the same in each data set. THis adds the data from each of those missing values to complete the heatmap. This resulted in 26 genes being shown, as opposed to 20.
+
+The inverse data frames are then combined with the original two top 20 lists into one data frame, `combined_list_filled`. This is what is used for the heatmap.
+
+For the heatmap it was created as a tile_plot using `ggplot()` and `ggtile`. With `aes()` the x axis was set to `set`, the y axis to `gene_id`. `geom_tile` set the fill of each point to come from `log2FoldChange`. 
+
+`scale_fill_distiller` is used to set the colour palette to be red to blue. `direction` is set to -1 so that blue is for low values (downregulated), and red is for high values (upregulated). `ggtitle` gives the plot a title, but due to its length it is fed in through `strwrp` to allow text wrapping. `labs` adds then adds appropriate labels to the axis and legend. 
+
+The heatmap was then generated as a plotly plot using `ggplotly`.
+
+```{r, echo=FALSE}
+#| fig-cap: "**Figure 7**: A heatmap showing the log2(Fold Change) of the top differetially expressed genes from each data set. Red is upregulated and blue is downregulated."
+AvsD$set <- "A vs D" #sets all of the column "set" to A vs D
+AvsE$set <- "A vs E" #sets all of the column "set" to A vs E
+
+AvsD_top <- AvsD %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Selects only differentially expressed genes
+  arrange(padj) %>% #Sorts from lowest to highest padj
+  slice(1:20) #Gets the first 20 values
+AvsE_top <- AvsE %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Selects only differentially expressed genes
+  arrange(padj) %>% #Sorts from lowest to highest padj
+  slice(1:20) #Gets the first 20 values
+
+combined_list <- rbind(AvsD_top, AvsE_top) #Combines both dfs containg lowest padj
+
+combined_unique <- combined_list %>% count(gene_id) %>% #Produces a table of the counts of every gene_id
+  filter(n == 1) %>% #Gets only gene_ids which are mentioned once
+  inner_join(combined_list, by = 'gene_id') #Adds this gene_id full rows from combined_list to the new df combined_unique
+
+unique_AvsD <- combined_unique %>% filter(combined_unique$set == "A vs D") #Separates out rows from AvsD
+unique_AvsE <- combined_unique %>% filter(combined_unique$set == "A vs E") #Separates out rows from AvsE
+
+inverse_unique_AvsD <- AvsE[AvsE$gene_id %in% unique_AvsD$gene_id,] #Gets the values from unique_AvsD and finds the same gene in AvsE
+inverse_unique_AvsE <- AvsD[AvsD$gene_id %in% unique_AvsE$gene_id,] #Gets the values from unique_AvsE and finds the same gene in AvsD
+
+combined_list_filled <- rbind(combined_list, inverse_unique_AvsD, inverse_unique_AvsE) #Adds all needed values into one df
+
+heatmap_plot <- ggplot(combined_list_filled, aes(set, gene_id)) + #Makes the plot. Data is from ccombined_list_filled, x axis is the data set y axis is gene_id
+  geom_tile(aes(fill=log2FoldChange)) +  #Makes plot a heatmap and fills cells acording to their log2FoldChange Value
+  scale_fill_distiller(palette = "RdBu", direction = -1) + #Sets the colour palette to be red and blue. direction = -1 inverts thwe direction so blue is under expressed
+  ggtitle(str_wrap("A heatmap of the log 2 fold change of the most significant genes in AvsD and AvsE", width = 45))+#Adds the title and makes the text wrap every 45 characters
+  labs(x = "Comparison Data Set", #Labels x-axis
+       y = "Gene ID", #Labels y-axis
+       fill = "log2(Fold Change)") +#Labels legend
+  theme(title = element_text(vjust=5))
+
+ggplotly(heatmap_plot) #Makes it a plotly plot
+```
+
+The heatmap suggests that both conditions (D and E), have a more downregulatory effect on the genes in the data sets. As for the most significant genes in each, only 4 genes are upregulated. Across both data sets the log2(Fold Change) of each is relatively similar with the exceptions of YKL108W and YER009W have a greater level of down regulation in condition D than E.
+
+#### Saving Plots
+
+All the plots produced were saved using `ggsave`. Each plot was saved as a `.png` and dimensions were speciifed. How each plot was saved can be seen below.
+
+```{r}
+#| eval: false
+volcano_AvsD #Shows plot
+ggsave("volcano_AvsD.png", width=8, height=5)
+volcano_AvsE #Shows plot
+ggsave("volcano_AvsE.png", width=8, height=5)
+
+ma_AvsD #Shows plot
+ggsave("ma_AvsD.png", width=8, height=5) #Saves plot
+ma_AvsE #Shows plot
+ggsave("ma_AvsE.png", width=8, height=5) #Saves plot
+
+hist_AvsD #Shows plot
+ggsave("histogram_AvsD.png", width=5, height=4) #Saves plot
+hist_AvsE #Shows plot
+ggsave("histogram_AvsE.png", width=5, height=4) #Saves plot
+
+ggplotly(heatmap_plot) #Makes it a plotly plot and displays it
+ggsave(file = "heatmap.png", width=6, height=8) #Saves plot
+```
+
+## Question 3 - Significant Genes List
+
+To get a data frame of only the genes which where significantly upregulated or downregulated both `AvsD` and `AvsE` filtered using the `expression` column. This selects only the genes which are signficantly upregulated or downregulated. It is then passed through `selext` to keep just `gene_id`, `pvalue`, `padj`, `log2FoldChange`.
+
+The two new data frames where then saved to `.tsv` files.
+
+```{r}
+sig_AvsD <- AvsD %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Creats df with only upregulated and downregulated genes
+  select(gene_id, pvalue, padj, log2FoldChange) #Selects only gene_id, pvalue, padj, and log2FoldChange columns
+sig_AvsD <- AvsD %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Creats df with only upregulated and downregulated genes
+  select(gene_id, pvalue, padj, log2FoldChange) #Selects only gene_id, pvalue, padj, and log2FoldChange columns
+```

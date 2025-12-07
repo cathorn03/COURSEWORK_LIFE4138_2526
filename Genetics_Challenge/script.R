@@ -1,3 +1,6 @@
+#############################
+## Module and Data Loading ##
+#############################
 
 #Clearing enviroment
 rm(list = ls())
@@ -5,8 +8,10 @@ rm(list = ls())
 #Loading required modules
 if (!require("tidyverse")) install.packages("tidyverse")
 if (!require("plotly")) install.packages("plotly")
+if (!require("ggpubr")) install.packages("ggpubr")
 library(tidyverse)
 library(plotly)
+library(ggpubr)
 
 
 #Reading in tsv files
@@ -54,9 +59,11 @@ sum_stats <- function(df, comp_name){
 AvsD <- sum_stats(AvsD, "AvsD") #Runs sum_stast() and adds expression column to AvsD
 AvsE <- sum_stats(AvsE, "AvsE") #Runs sum_stats() and adds expression column to AvsE
 
+
 ###########
 ## Plots ##
 ###########
+
 
 make_volcano <- function(df, comp_name, xcrop = c(-10,10), ycrop = c(0,50)){ #Creates a function to make a volcano
   
@@ -80,7 +87,8 @@ make_ma <- function(df, comp_name){ #Function to create an MA plot
   
   plot_title <- paste("MA plot of", comp_name) #Creates object with what the plot title is
   
-  plot <- ggmaplot(data = df) + #Makes the plot using data from provided data set
+  plot <- ggmaplot(data = df,  #Makes the plot using data from provided data set
+                   top = 0 ) + #Removes point labels
     labs(title = plot_title, #Labels title
          x = "log2(Mean Expression)", #Labels x axis
          y = "log2(Fold Change)", #Labels y axis
@@ -94,38 +102,49 @@ make_hist <- function(df, comp_name, bin = 0.05){#Function to create a histogram
   plot_title <- paste("Histogram of", comp_name, "adjusted p-values") #Creates object with what the plot title is
   
   plot <- ggplot(aes(padj), data = df) + #Makes the plot with data from provided data set, builds it on padj
-    geom_histogram(binwidth = bin) + #Creates histogram. Bin width is specified in the function 
-    labs(title = plot_title) #Gives the plot a title
+    geom_histogram(binwidth = bin,  #Creates histogram. Bin width is specified in the function 
+                   colour = "black", fill = "azure4") + #Sets colour of the histogram
+    labs(title = plot_title,
+         x = "Adjusted p-value",
+         y = "Frequency") #Gives the plot a title
   
   return(plot) #Returns the plot as a ggplotly plot
 }
 
-pdf(file = "./Volcano_Plots.pdf")   # The directory you want to save the file in
+
 volcano_AvsD <- make_volcano(AvsD, "A vs D", c(-10,10), c(0,25)) #Creates plot for AvsD
 volcano_AvsE <- make_volcano(AvsE, "A vs E") #Creates plot for AvsE
 volcano_AvsD #Shows plot
+ggsave("volcano_AvsD.png", width=8, height=5)
 volcano_AvsE #Shows plot
-dev.off()
+ggsave("volcano_AvsE.png", width=8, height=5)
 
-pdf(file = "./MA_Plots.pdf") 
+
 ma_AvsD <- make_ma(AvsD, "A vs D") #Creates plot for AvsD
 ma_AvsE <- make_ma(AvsE, "A vs E") #Creates plot for AvsE
 ma_AvsD #Shows plot
+ggsave("ma_AvsD.png", width=8, height=5)
 ma_AvsE #Shows plot
-dev.off()
+ggsave("ma_AvsE.png", width=8, height=5)
 
-pdf(file = "./Histograms.pdf") 
+
 hist_AvsD <- make_hist(AvsD, "A vs D") #Creates plot for AvsD
 hist_AvsE <- make_hist(AvsE, "A vs E") #Creates plot for AvsE
 hist_AvsD #Shows plot
+ggsave("histogram_AvsD.png", width=5, height=4)
 hist_AvsE #Shows plot
-dev.off()
+ggsave("histogram_AvsE.png", width=5, height=4)
+
 
 AvsD$set <- "A vs D" #sets all of the column "set" to A vs D
 AvsE$set <- "A vs E" #sets all of the column "set" to A vs E
 
-AvsD_top <- AvsD %>% arrange(padj) %>% slice(1:20) #Gets 100 lowest padj values from AvsD
-AvsE_top <- AvsE %>% arrange(padj) %>% slice(1:20) #Gets 100 lowest padj values from AvsE
+AvsD_top <- AvsD %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Selects only differentially expressed genes
+  arrange(padj) %>% #Sorts from lowest to highest padj
+  slice(1:20) #Gets the first 20 values
+AvsE_top <- AvsE %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Selects only differentially expressed genes
+  arrange(padj) %>% #Sorts from lowest to highest padj
+  slice(1:20) #Gets the first 20 values
 
 combined_list <- rbind(AvsD_top, AvsE_top) #Combines both dfs containg lowest padj
 
@@ -141,25 +160,29 @@ inverse_unique_AvsE <- AvsD[AvsD$gene_id %in% unique_AvsE$gene_id,] #Gets the va
 
 combined_list_filled <- rbind(combined_list, inverse_unique_AvsD, inverse_unique_AvsE) #Adds all needed values into one df
 
-test <- combined_list[count(combined_list, gene_id) == 1,]
-view(test)
-
-count(combined_list, gene_id)
-
-pdf(file = "./Heatmap.pdf") 
 p <- ggplot(combined_list_filled, aes(set, gene_id)) + #Makes the plot. Data is from ccombined_list_filled, x axis is the data set y axis is gene_id
-  geom_tile(aes(fill=log2FoldChange)) #Makes plot a heatmap
+  geom_tile(aes(fill=log2FoldChange)) +  #Makes plot a heatmap and fills cells acording to their log2FoldChange Value
+  scale_fill_distiller(palette = "RdBu", direction = -1) + #Sets the colour palette to be red and blue. direction = -1 inverts thwe direction so blue is under expressed
+  ggtitle(str_wrap("A heatmap of the log 2 fold change of the most significant genes in AvsD and AvsE", width = 45))+ #Adds the title and makes the text wrap every 45 characters
+  labs(x = "Comparison Data Set", #Labels x-axis
+       y = "Gene ID", #Labels y-axis
+       fill = "log2(Fold Change)") #Labels legend
+
 ggplotly(p) #Makes it a plotly plot
-dev.off()
+ggsave(file = "heatmap.png", width=6, height=8)
+
 
 ###########################
 ## Signifcant Genes List ##
 ###########################
 
-sig_AvsD <- AvsD %>% filter(expression == "Upregulated" | expression == "Downregulated") #Creats df with only upregulated and downregulated genes
-sig_AvsE <- AvsE %>% filter(expression == "Upregulated" | expression == "Downregulated") #Creats df with only upregulated and downregulated genes
 
+sig_AvsD <- AvsD %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Creats df with only upregulated and downregulated genes
+  select(gene_id, pvalue, padj, log2FoldChange) #Selects only gene_id, pvalue, padj, and log2FoldChange columns
+sig_AvsE <- AvsE %>% filter(expression == "Upregulated" | expression == "Downregulated") %>% #Creats df with only upregulated and downregulated genes
+  select(gene_id, pvalue, padj, log2FoldChange) #Selects only gene_id, pvalue, padj, and log2FoldChange columns
 
-
+write_tsv(sig_AvsD, "significant_AvsD.tsv.gz")
+write_tsv(sig_AvsE, "significant_AvsE.tsv.gz")
 
 
