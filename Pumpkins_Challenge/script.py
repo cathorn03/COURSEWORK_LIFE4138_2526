@@ -2,7 +2,6 @@
 
 import pandas as pd
 import math
-from playsound import playsound
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import colormaps
@@ -188,11 +187,9 @@ def summary_mean(df, col, groups):
 
 def main():
 
-	os.system("osascript -e \"set volume output volume 100\"")
-	playsound('./.surprise.mp3') #Plays mystery sound
-	pumpkin = import_csv('pumpkins_08.csv')
+	pumpkin = import_csv('pumpkins_08.csv') #Imports data set as .csv
 	
-	output = open('output.txt', 'w')
+	output = open('output.txt', 'w') #Creates output.txt for all outputs to be printed to
 
 	#Finding heaviest pumpkin
 	try:
@@ -224,21 +221,22 @@ def main():
 
 
 	#Fig 1
-	#filter_col(pumpkin, 'est_weight', [0], 'pumpkin_0_est') #Used to investigate whether to remove zeros from plot
-	lbs_to_kg(pumpkin, 'est_weight', 'est_weight_kg') #Creates new column with converted weights named 'est_weight_kg'
 
 	try:
 		pumpkin['est_weight'] = pumpkin['est_weight'].replace({0:np.nan}) #Sets 0 values to NaN within 'estimated_weight'
-		
+		print(pumpkin)
 	except Exception as e:
 		print("####ERROR main (remove 0): a/multiple provided args do not exist.####")
 		print(f"####Args: {e.args}####\n")
 	
+	#filter_col(pumpkin, 'est_weight', [0], 'pumpkin_0_est') #Used to investigate whether to remove zeros from plot
+	lbs_to_kg(pumpkin, 'est_weight', 'est_weight_kg') #Creates new column with converted weights named 'est_weight_kg'
+
 	try:
 		fig1 = sns.scatterplot(
 			x='est_weight_kg', y='weight_kg', #Sets axis
 			hue='weight_class', #Colours by class
-			data=pumpkin) #Data is pumpkins dataset
+			data=pumpkin) #Data is pumpkins dataset3
 		plt.title('A scatter graph of Estimated Weight vs Recorded Weight') #Gives title
 		plt.xlabel('Estimated weight/kg') #Labels x-axis
 		plt.ylabel('Recorded weight/kg') #Labels y-axis

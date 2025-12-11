@@ -1,5 +1,0 @@
-error: Disk space is low
-info: System boot successful
-warning: High memory usage detected
-error: Failed to connect to server
-info: Backup completed successfully

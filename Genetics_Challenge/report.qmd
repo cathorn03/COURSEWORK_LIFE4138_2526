@@ -15,7 +15,7 @@ For the project 2 packages were installed and libraried
 
 These were loaded in as below.
 
-```{r results='hide'}
+```{r, results='hide'}
 if (!require("tidyverse")) install.packages("tidyverse")
 if (!require("plotly")) install.packages("plotly")
 if (!require("ggpubr")) install.packages("ggpubr")
@@ -28,7 +28,7 @@ library(ggpubr)
 
 The .tsv files were read using `read_tsv`. They were assigned to the objects `AvsD` and `AvsE` as a data frame.
 
-```{r results='hide'}
+```{r, results='hide'}
 AvsD <- read_tsv('A_vs_D.deseq2.results.tsv')
 AvsE <- read_tsv('A_vs_E.deseq2.results.tsv')
 ```
@@ -99,7 +99,7 @@ AvsE <- sum_stats(AvsE, "AvsE") #Runs sum_stats() and adds expression column to 
 
 #### Volcano Plot
 ```{r}
-make_volcano <- function(df, comp_name, xcrop = c(-10,10), ycrop = c(0,50)){ #Creates a function to make a volcano
+make_volcano <- function(df, comp_name){ #Creates a function to make a volcano
   
   plot_title <- paste("Volcano plot of", comp_name) #Creates object with what the plot title is
   
@@ -111,7 +111,6 @@ make_volcano <- function(df, comp_name, xcrop = c(-10,10), ycrop = c(0,50)){ #Cr
          x = "log2(Fold Change)", #Labels x axis
          y = "-log10(adjusted p-value)", #Labels y axis
          color = "Significance") + #Lables the legend
-    coord_cartesian(xlim = xcrop, ylim= ycrop) + #Crops axis based on provided parameters
     scale_color_manual(values = c("blue", "azure4","red")) #Sets colour of the points
   
   return(ggplotly(plot)) #Returns the plot as a ggplotly plot
@@ -122,14 +121,12 @@ A function, `make_volcano()` was created to minimise the number of lines of code
 
 -   `df` - The data frame you want to use for the plot
 -   `comp_name` - The name of the data set you provide (used in the plot title).
--   `xcrop` - Values you want to crop the x axis too
--   `ycrop` - Values you want to crop the y axis too
 
 The function first creates the object `plot_title`. This is a string containing the title of the plot. It is assigned as an object to keep the code for the plot tidier.
 
 The plot is created using `ggplot` and assiged to the object `plot`. The data is taken from `df`, except `subset()` is used in order to remove rows with NA `padj` values. `aes()` sets the data for the x axis to that in `log2FoldChange` and y axis data to the negative log10 of `padj`. `aes()` also sets the colour of the points to be based on `expression` and the labels of any points to be based on `gene_id`.
 
-`geom_point()` sets the opacity of the points to 50%. `labs()` assigns the relvant labels, to the axis, title, and legend. The title is set using the `plot_title` object. `coord_cartesian()` is used to crop the axis, and `scale_colour_manual` sets the colours of the points.
+`geom_point()` sets the opacity of the points to 50%. `labs()` assigns the relvant labels, to the axis, title, and legend. The title is set using the `plot_title` object. `scale_colour_manual` sets the colours of the points.
 
 `plot` is then returned out of the function as a `plotly` plot.
 
@@ -145,7 +142,6 @@ volcano_AvsD #Shows plot
 volcano_AvsE #Shows plot
 ```
 ```{r, echo=FALSE}
-#| fig-cap: "**Figure 1**: A volcano plot of genes when exposed to condition D, compared to condition A"
 volcano_AvsD <- make_volcano(AvsD, "A vs D") #Creates plot for AvsD
 volcano_AvsD #Shows plot
 ```
@@ -200,8 +196,8 @@ ma_AvsE <- make_ma(AvsE, "A vs E") #Creates plot for AvsE
 ma_AvsE
 ```
 
-#### Say something about the MA plots
-
+In both of the MA plots, upreagulated and downregulated genes are clustered closely to the centre line (where log2(Fold Change = 0)), and for most genes this is below 4. In both sets there is a cluster of genes which are downregulated with log2(fold change) values greater lower than -20. There are similarly some genes which are upregulated with a log2(fold change) greater. This is similar for both A vs D and A vs E. However, the clustering of downregulated genes along the y-axis is not as tight within A vs E. Both data sets are evenly distributed along the x-axis.
+ 
 #### Histograms
 ```{r}
 make_hist <- function(df, comp_name, bin = 0.05){#Function to create a histogram
@@ -251,7 +247,7 @@ hist_AvsE <- make_hist(AvsE, "A vs E") #Creates plot for AvsD
 hist_AvsE #Shows plot
 ```
 
-Both histograms show that each data set AvsD has aproximatek
+The histoigrams reveal that A vs D contains approximatel 2000 genes with an adjusted p-value below 0.05 showing a significant difference in expression. For A vs E this value is just under 2500. For A vs D this means around 32% of genes have a significant difference in expression and this rises to 39% for A vs E.
 
 #### Heatmap
 ```{r}

@@ -1,4 +1,4 @@
-# LIFE4138 COURSEWORK - CALEB THORNBER
+# EC PENDING - LIFE4138 COURSEWORK - CALEB THORNBER
 
 Within this repository is the completed coursework for the LIFE4138 module. It contains 3 directories:
 

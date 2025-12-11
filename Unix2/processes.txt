@@ -1,5 +1,0 @@
-root 1 300
-user1 2 400
-user2 3 500
-user3 4 100
-user4 5 250

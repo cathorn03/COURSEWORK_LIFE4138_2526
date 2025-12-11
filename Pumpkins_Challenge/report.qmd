@@ -260,7 +260,7 @@ Here `pumpkin` gets a new column added to it named 'weight class'. It classifies
 
 ## Question 5 - Plotting Estimated and Actual Weights
 ```{python}
-lbs_to_kg(pumpkin, 'est_weight', 'est_weight_kg') #Creates new column with converted weights named 'est_weight_kg'
+#| fig-cap: "**Figure 1**: A scatter graph plotting the recorded weights of pumpkins against their estimated weights in kilograms. All values in estimated weight which are zero were removed. Points are coloured according to their weight class. Light pumpkins are one standard deviation below the mean, heavy pumpkins are more than one standard deviation above the mean. Medium pumpkins are within these two values."
 
 try:
 	pumpkin['est_weight'] = pumpkin['est_weight'].replace({0:np.nan}) #Sets 0 values to NaN within 'estimated_weight'
@@ -269,11 +269,13 @@ except Exception as e:
 	print("####ERROR main (remove 0): a/multiple provided args are unable to be read.####")
 	print(f"####Args: {e.args}####\n")
 
+lbs_to_kg(pumpkin, 'est_weight', 'est_weight_kg') #Creates new column with converted weights named 'est_weight_kg'
+
 try:
 	fig1 = sns.scatterplot(
 		x='est_weight_kg', y='weight_kg', #Sets axis
 		hue='weight_class', #Colours by class
-		df=pumpkin) #Data is pumpkins dataset
+		data=pumpkin) #Data is pumpkins dataset
 	plt.title('A scatter graph of Estimated Weight vs Recorded Weight') #Gives title
 	plt.xlabel('Estimated weight/kg') #Labels x-axis
 	plt.ylabel('Recorded weight/kg') #Labels y-axis
@@ -284,7 +286,7 @@ except Exception as e:
 	print(f"####ERROR Fig1: Trying to plot none correct df####")
 	print(f"####{e.args}####\n")
 ```
-For the plot I chose to remove all zero values from `est_weight`. This is as the values are likely to be missing df points, and as such appear as zero in the df set. It is likely that not every grower in the competitions were able to get estimated weight df. I interogated this by using `filter_col()` (see question 6), as below, to select only pumpkins with zero estimated weights.
+For the plot I chose to remove all zero values from `est_weight`. This is as the values are likely to be missing df points, and as such appear as zero in the df set. It is likely that not every grower in the competitions were able to get estimated weight df. I interogated this by using `filter_col()` (see question 6), as below, to select only pumpkins with zero estimated weights. Zero values in `est_weight` were replaced with `nan` from `numpy` using `replace`. 
 
 ```{python}
 #| eval: false
@@ -300,6 +302,7 @@ The graph identified that most pumpkins' actual weights were clost to their esti
 This df point was evaluated with the code below.
 
 ```{python}
+#| eval: false
 print(pumpkin.loc[pumpkin['est_weight_kg'].idxmax()])
 ```
 
@@ -451,6 +454,7 @@ output.writelines(summary_out)
 
 ## Question 8 - Plotting the Filtered Data
 ```{python}
+#| fig-cap: "**Figure 2**: A boxplot showing the distribution of pumpkin weights of the filtered countries in kg."
 try:
 	fig2 = pumpkin_filtered.boxplot(column='weight_kg', by='country', grid=False) #Generates boxplot without a grid
 	plt.title('A Boxplot of 3 countries and the Weights of Pumpkins') #Gives title
@@ -473,6 +477,7 @@ The plot is titled and labelled as above. It is saved to a .png titled "Figure_2
 * If any error occurs an error messgae shows. The arg causing the error is printed
 ### Question 9 - Faceted Box Plot of the Filtered Data
 ```{python}
+#| fig-cap: "**Figure 3**: A faceted box plot grouped by countries selected from the filter function. Each plot shows the distribution of weights in kilograms by their variety."
 try:
 	fig3 = sns.FacetGrid(pumpkin_filtered, #Data taken from pumkin_filtered and produces facet grid
 		col='country', #Facets the df by country
