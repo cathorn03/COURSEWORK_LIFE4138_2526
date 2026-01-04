@@ -52,7 +52,7 @@ sum_stats <- function(df, comp_name){
   print(padj_summ) 
   cat("Summary of log2 Fold Change:\n")
   print(log2fc_summ)
-  print("")
+  cat("\n")
   return(df) # Returns df with expression column
 }
 
@@ -184,5 +184,4 @@ sig_AvsE <- AvsE %>% filter(expression == "Upregulated" | expression == "Downreg
 
 write_tsv(sig_AvsD, "significant_AvsD.tsv.gz")
 write_tsv(sig_AvsE, "significant_AvsE.tsv.gz")
-
 

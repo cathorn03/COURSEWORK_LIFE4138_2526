@@ -195,7 +195,7 @@ def main():
 	try:
 		heaviest = pumpkin.loc[pumpkin['weight_lbs'].idxmax()] # Returns row of heaviest pumpkin
 
-		output.write(f"The heaviest pumkin was in {str(heaviest['id'])[:4]}. Variety: {heaviest['variety']}, Location: {heaviest['city']}, {heaviest['country']}.\n\n")	
+		output.write(f"The heaviest pumkin from {str(heaviest['id'])[:4]}. Variety: {heaviest['variety']}, Location: {heaviest['city']}, {heaviest['country']}.\n\n")	
 		# ^^^ Prints information. Takes first 4 characters of id for the year
 	except KeyError as e:
 		print("####ERROR main (find heaviest): a/multiple provided args do not exist.####")
@@ -224,7 +224,6 @@ def main():
 
 	try:
 		pumpkin['est_weight'] = pumpkin['est_weight'].replace({0:np.nan}) #Sets 0 values to NaN within 'estimated_weight'
-		print(pumpkin)
 	except Exception as e:
 		print("####ERROR main (remove 0): a/multiple provided args do not exist.####")
 		print(f"####Args: {e.args}####\n")
@@ -242,6 +241,7 @@ def main():
 		plt.ylabel('Recorded weight/kg') #Labels y-axis
 		plt.legend(title='Weight Class') #Gives title to legend
 		plt.savefig('Figure_1.png') #Saves plot to png
+		plt.close()
 
 	except Exception as e:
 		print(f"####ERROR Fig1: Trying to plot none correct data####")
@@ -249,11 +249,15 @@ def main():
 
 	#Fig2
 	try:
-		fig2 = pumpkin_filtered.boxplot(column='weight_kg', by='country', grid=False) #Generates boxplot without a grid
-		plt.title('A Boxplot of 3 countries and the Weights of Pumpkins') #Gives title
+		sfig2 = sns.boxplot(data=pumpkin_filtered,#Generates boxplot using filtered data 
+			x='country', y='weight_kg', #Sets x and y axis
+			width=0.5, #Sets width of the boxes
+			linecolor='black', fill=True, color='grey') #Colours the boxplot
+		plt.title('A boxplot of recorded weights of pumpkins across 3 different countries')
 		plt.ylabel('Country') #Labels x axis
 		plt.xlabel('Weight/kg') #Labels y axis
 		plt.savefig('Figure_2.png') #Saves as png
+		plt.close()
 
 	except Exception as e:
 		print(f"####ERROR Fig2: Trying to plot none correct data####")
@@ -273,6 +277,7 @@ def main():
 		fig3.set_xticklabels(rotation=90) #Writes x axis tick lables vertically
 		fig3.figure.tight_layout(rect=[0,0,1,0.95]) #Gives more room for plot
 		plt.savefig('Figure_3.png') #Saves as png
+		plt.close()
 
 	except Exception as e:
 		print(f"####ERROR Fig3: Trying to plot none correct data####")
