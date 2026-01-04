@@ -18,4 +18,4 @@ Summary of log2 Fold Change:
      Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
 -24.88290  -0.59984  -0.02499  -0.13093   0.49147  22.73216 
 
-wrote 40.00B in  0s, 4.42MB/swrote 1.00TB in  0s, 48.45TB/s                                                                                    wrote 39.00B in  0s, 7.79MB/swrote 1.00TB in  0s, 39.41TB/s                                                                                    
+wrote 40.00B in  0s, 4.53MB/swrote 1.00TB in  0s, 51.61TB/s                                                                                    wrote 39.00B in  0s, 5.45MB/swrote 1.00TB in  0s, 26.55TB/s                                                                                    

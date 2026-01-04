@@ -1,4 +1,4 @@
-#LIFE4138 COURSEWORK
+# LIFE4138 COURSEWORK
 
 Within this repository is the completed coursework for the LIFE4138 module. It contains 3 directories:
 

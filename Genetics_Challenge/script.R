@@ -6,12 +6,19 @@
 rm(list = ls())
 
 #Loading required modules
-if (!require("tidyverse")) install.packages("tidyverse")
-if (!require("plotly")) install.packages("plotly")
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("ggplot2")) install.packages("ggplot2")
 if (!require("ggpubr")) install.packages("ggpubr")
-library(tidyverse)
-library(plotly)
+if (!require("plotly")) install.packages("plotly")
+if (!require("readr")) install.packages("readr")
+if (!require("stringr")) install.packages("stringr")
+
+library(dplyr)
+library(ggplot2)
 library(ggpubr)
+library(plotly)
+library(readr)
+library(stringr)
 
 
 #Reading in tsv files
@@ -64,7 +71,7 @@ AvsE <- sum_stats(AvsE, "AvsE") #Runs sum_stats() and adds expression column to 
 ## Plots ##
 ###########
 
-
+###Volcano plot###
 make_volcano <- function(df, comp_name, xcrop = c(-10,10), ycrop = c(0,50)){ #Creates a function to make a volcano
   
   plot_title <- paste("Volcano plot of", comp_name) #Creates object with what the plot title is
@@ -83,6 +90,7 @@ make_volcano <- function(df, comp_name, xcrop = c(-10,10), ycrop = c(0,50)){ #Cr
   return(ggplotly(plot)) #Returns the plot as a ggplotly plot
 }
 
+###MA plot###
 make_ma <- function(df, comp_name){ #Function to create an MA plot
   
   plot_title <- paste("MA plot of", comp_name) #Creates object with what the plot title is
@@ -97,6 +105,7 @@ make_ma <- function(df, comp_name){ #Function to create an MA plot
   return(ggplotly(plot)) #Returns the plot as a ggplotly plot
 }
 
+###Histogram###
 make_hist <- function(df, comp_name, bin = 0.05){#Function to create a histogram
   
   plot_title <- paste("Histogram of", comp_name, "adjusted p-values") #Creates object with what the plot title is
@@ -111,31 +120,32 @@ make_hist <- function(df, comp_name, bin = 0.05){#Function to create a histogram
   return(plot) #Returns the plot as a ggplotly plot
 }
 
-
+###Displaying plots###
 volcano_AvsD <- make_volcano(AvsD, "A vs D", c(-10,10), c(0,25)) #Creates plot for AvsD
 volcano_AvsE <- make_volcano(AvsE, "A vs E") #Creates plot for AvsE
 volcano_AvsD #Shows plot
-ggsave("volcano_AvsD.png", width=8, height=5)
+ggsave("volcano_AvsD.png", width=8, height=5) #Saves plot with specific dimensions
 volcano_AvsE #Shows plot
-ggsave("volcano_AvsE.png", width=8, height=5)
+ggsave("volcano_AvsE.png", width=8, height=5) #Saves plot with specific dimensions
 
 
 ma_AvsD <- make_ma(AvsD, "A vs D") #Creates plot for AvsD
 ma_AvsE <- make_ma(AvsE, "A vs E") #Creates plot for AvsE
 ma_AvsD #Shows plot
-ggsave("ma_AvsD.png", width=8, height=5)
+ggsave("ma_AvsD.png", width=8, height=5) #Saves plot with specific dimensions
 ma_AvsE #Shows plot
-ggsave("ma_AvsE.png", width=8, height=5)
+ggsave("ma_AvsE.png", width=8, height=5) #Saves plot with specific dimensions
 
 
 hist_AvsD <- make_hist(AvsD, "A vs D") #Creates plot for AvsD
 hist_AvsE <- make_hist(AvsE, "A vs E") #Creates plot for AvsE
 hist_AvsD #Shows plot
-ggsave("histogram_AvsD.png", width=5, height=4)
+ggsave("histogram_AvsD.png", width=5, height=4) #Saves plot with specific dimensions
 hist_AvsE #Shows plot
-ggsave("histogram_AvsE.png", width=5, height=4)
+ggsave("histogram_AvsE.png", width=5, height=4) #Saves plot with specific dimensions
 
 
+###Heatmap###
 AvsD$set <- "A vs D" #sets all of the column "set" to A vs D
 AvsE$set <- "A vs E" #sets all of the column "set" to A vs E
 
@@ -160,7 +170,7 @@ inverse_unique_AvsE <- AvsD[AvsD$gene_id %in% unique_AvsE$gene_id,] #Gets the va
 
 combined_list_filled <- rbind(combined_list, inverse_unique_AvsD, inverse_unique_AvsE) #Adds all needed values into one df
 
-p <- ggplot(combined_list_filled, aes(set, gene_id)) + #Makes the plot. Data is from ccombined_list_filled, x axis is the data set y axis is gene_id
+hmap <- ggplot(combined_list_filled, aes(set, gene_id)) + #Makes the plot. Data is from ccombined_list_filled, x axis is the data set y axis is gene_id
   geom_tile(aes(fill=log2FoldChange)) +  #Makes plot a heatmap and fills cells acording to their log2FoldChange Value
   scale_fill_distiller(palette = "RdBu", direction = -1) + #Sets the colour palette to be red and blue. direction = -1 inverts thwe direction so blue is under expressed
   ggtitle(str_wrap("A heatmap of the log 2 fold change of the most significant genes in AvsD and AvsE", width = 45))+ #Adds the title and makes the text wrap every 45 characters
@@ -168,8 +178,8 @@ p <- ggplot(combined_list_filled, aes(set, gene_id)) + #Makes the plot. Data is 
        y = "Gene ID", #Labels y-axis
        fill = "log2(Fold Change)") #Labels legend
 
-ggplotly(p) #Makes it a plotly plot
-ggsave(file = "heatmap.png", width=6, height=8)
+ggplotly(hmap) #Makes it a plotly plot
+ggsave(file = "heatmap.png", width=6, height=8) #Saves plot with specific dimensions
 
 
 ###########################

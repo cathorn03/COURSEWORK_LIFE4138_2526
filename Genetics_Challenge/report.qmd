@@ -8,30 +8,31 @@ toc: true
 
 ## Packages
 
-For the project 3 packages were installed and libraried.
+For the project 6 packages were installed and libraried.
 
--   `tidyverse`
--   `plotly`
+-   `dplyr`
+-   `ggplot2`
 -   `ggpubr`
+-   `plotly`
+-   `readr`
+-   `stringr`
 
 These were loaded in as below.
 
 ```{r}
-#| eval: false
-if (!require("tidyverse")) install.packages("tidyverse")
-if (!require("plotly")) install.packages("plotly")
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("ggplot2")) install.packages("ggplot2")
 if (!require("ggpubr")) install.packages("ggpubr")
-library(tidyverse)
-library(plotly)
-library(ggpubr)
-```
-```{r, echo=FALSE}
-if (!require("tidyverse")) install.packages("tidyverse")
 if (!require("plotly")) install.packages("plotly")
-if (!require("ggpubr")) install.packages("ggpubr")
-library(tidyverse)
-library(plotly)
+if (!require("readr")) install.packages("readr")
+if (!require("stringr")) install.packages("stringr")
+
+library(dplyr)
+library(ggplot2)
 library(ggpubr)
+library(plotly)
+library(readr)
+library(stringr)
 ```
 
 ## Aditional Code
@@ -316,7 +317,11 @@ For the heatmap it was created as a tile_plot using `ggplot()` and `ggtile`. Wit
 The heatmap was then generated as a plotly plot using `ggplotly`.
 
 ```{r, echo=FALSE}
+#| fig-width: 0.6
+#| fig-height: 0.8
+#| fig-align: 'center'
 #| fig-cap: "**Figure 7**: A heatmap showing the log2(Fold Change) of the top differetially expressed genes from each data set. Red is upregulated and blue is downregulated."
+
 AvsD$set <- "A vs D" #sets all of the column "set" to A vs D
 AvsE$set <- "A vs E" #sets all of the column "set" to A vs E
 
